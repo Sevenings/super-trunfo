@@ -1,0 +1,556 @@
+{
+"pokemon": {
+    "atributos": ["vida", "ataque", "defesa", "velocidade", "especial", "media"],
+    "cartas": [
+        {
+        "codigo": "A1",
+        "name": "Bulbasaur",
+        "vida": 45,
+        "ataque": 49,
+        "defesa": 49,
+        "velocidade": 45,
+        "especial": 65,
+        "media": 50.6
+        },
+        {
+        "codigo": "A2",
+        "name": "Venusaur",
+        "vida": 80,
+        "ataque": 82,
+        "defesa": 83,
+        "velocidade": 80,
+        "especial": 100,
+        "media": 85
+        },
+        {
+        "codigo": "A3",
+        "name": "Charmander",
+        "vida": 39,
+        "ataque": 52,
+        "defesa": 43,
+        "velocidade": 65,
+        "especial": 50,
+        "media": 49.8
+        },
+        {
+        "codigo": "A4",
+        "name": "Charizard",
+        "vida": 78,
+        "ataque": 84,
+        "defesa": 78,
+        "velocidade": 100,
+        "especial": 85,
+        "media": 85
+        },
+        {
+        "codigo": "A5",
+        "name": "Squirtle",
+        "vida": 44,
+        "ataque": 48,
+        "defesa": 65,
+        "velocidade": 43,
+        "especial": 50,
+        "media": 50
+        },
+        {
+        "codigo": "A6",
+        "name": "Blastoise",
+        "vida": 79,
+        "ataque": 83,
+        "defesa": 100,
+        "velocidade": 78,
+        "especial": 85,
+        "media": 85
+        },
+        {
+        "codigo": "A7",
+        "name": "Caterpie",
+        "vida": 45,
+        "ataque": 30,
+        "defesa": 35,
+        "velocidade": 45,
+        "especial": 20,
+        "media": 35
+        },
+        {
+        "codigo": "A8",
+        "name": "Butterfree",
+        "vida": 60,
+        "ataque": 45,
+        "defesa": 50,
+        "velocidade": 70,
+        "especial": 80,
+        "media": 61
+        },
+        {
+        "codigo": "B1",
+        "name": "Weedle",
+        "vida": 40,
+        "ataque": 35,
+        "defesa": 30,
+        "velocidade": 50,
+        "especial": 20,
+        "media": 35
+        },
+        {
+        "codigo": "B2",
+        "name": "Beedrill",
+        "vida": 65,
+        "ataque": 80,
+        "defesa": 40,
+        "velocidade": 75,
+        "especial": 45,
+        "media": 61
+        },
+        {
+        "codigo": "B3",
+        "name": "Pidgey",
+        "vida": 40,
+        "ataque": 45,
+        "defesa": 40,
+        "velocidade": 56,
+        "especial": 35,
+        "media": 43.2
+        },
+        {
+        "codigo": "B4",
+        "name": "Pidgeot",
+        "vida": 83,
+        "ataque": 80,
+        "defesa": 75,
+        "velocidade": 91,
+        "especial": 70,
+        "media": 79.8
+        },
+        {
+        "codigo": "B5",
+        "name": "Rattata",
+        "vida": 30,
+        "ataque": 56,
+        "defesa": 35,
+        "velocidade": 72,
+        "especial": 25,
+        "media": 43.6 
+        },
+        {
+        "codigo": "B6",
+        "name": "Pikachu",
+        "vida": 35,
+        "ataque": 55,
+        "defesa": 30,
+        "velocidade": 90,
+        "especial": 50,
+        "media": 52
+        },
+        {
+        "codigo": "B7",
+        "name": "Raichu",
+        "vida": 60,
+        "ataque": 90,
+        "defesa": 55,
+        "velocidade": 100,
+        "especial": 90,
+        "media": 79 
+        },
+        {
+        "codigo": "B8",
+        "name": "Clefairy",
+        "vida": 70,
+        "ataque": 45,
+        "defesa": 48,
+        "velocidade": 35,
+        "especial": 60,
+        "media": 51.6 
+        },
+        {
+        "codigo": "C1",
+        "name": "Meowth",
+        "vida": 40,
+        "ataque": 45,
+        "defesa": 35,
+        "velocidade": 90,
+        "especial": 40,
+        "media": 50 
+        },
+        {
+        "codigo": "C2",
+        "name": "Parasect",
+        "vida": 60,
+        "ataque": 95,
+        "defesa": 80,
+        "velocidade": 30,
+        "especial": 80,
+        "media": 69 
+        },
+        {
+        "codigo": "C3",
+        "name": "Alakazam",
+        "vida": 55,
+        "ataque": 50,
+        "defesa": 45,
+        "velocidade": 120,
+        "especial": 135,
+        "media": 81 
+        },
+        {
+        "codigo": "C4",
+        "name": "Arcanine",
+        "vida": 90,
+        "ataque": 110,
+        "defesa": 80,
+        "velocidade": 95,
+        "especial": 80,
+        "media": 91 
+        },
+        {
+        "codigo": "C5",
+        "name": "Psyduck",
+        "vida": 50,
+        "ataque": 52,
+        "defesa": 48,
+        "velocidade": 55,
+        "especial": 50,
+        "media": 51 
+        },
+        {
+        "codigo": "C6",
+        "name": "Geodude",
+        "vida": 40,
+        "ataque": 80,
+        "defesa": 100,
+        "velocidade": 20,
+        "especial": 30,
+        "media": 54 
+        },
+        {
+        "codigo": "C7",
+        "name": "Ponyta",
+        "vida": 50,
+        "ataque": 85,
+        "defesa": 55,
+        "velocidade": 90,
+        "especial": 65,
+        "media": 69 
+        },
+        {
+        "codigo": "C8",
+        "name": "Magnemite",
+        "vida": 25,
+        "ataque": 35,
+        "defesa": 70,
+        "velocidade": 45,
+        "especial": 95,
+        "media": 54 
+        },
+        {
+        "codigo": "D1",
+        "name": "Seel",
+        "vida": 65,
+        "ataque": 45,
+        "defesa": 55,
+        "velocidade": 45,
+        "especial": 70,
+        "media": 56 
+        },
+        {
+        "codigo": "D2",
+        "name": "Gengar",
+        "vida": 60,
+        "ataque": 65,
+        "defesa": 60,
+        "velocidade": 110,
+        "especial": 130,
+        "media": 85 
+        },
+        {
+        "codigo": "D3",
+        "name": "Onix",
+        "vida": 35,
+        "ataque": 45,
+        "defesa": 160,
+        "velocidade": 70,
+        "especial": 30,
+        "media": 68 
+        },
+        {
+        "codigo": "D4",
+        "name": "Exeggutor",
+        "vida": 95,
+        "ataque": 95,
+        "defesa": 85,
+        "velocidade": 55,
+        "especial": 125,
+        "media": 91 
+        },
+        {
+        "codigo": "D5",
+        "name": "Staryu",
+        "vida": 30,
+        "ataque": 45,
+        "defesa": 55,
+        "velocidade": 85,
+        "especial": 70,
+        "media": 57 
+        },
+        {
+        "codigo": "D6",
+        "name": "Kangaskhan",
+        "vida": 105,
+        "ataque": 95,
+        "defesa": 80,
+        "velocidade": 90,
+        "especial": 40,
+        "media": 82 
+        },
+        {
+        "codigo": "D7",
+        "name": "Dragonite",
+        "vida": 91,
+        "ataque": 134,
+        "defesa": 95,
+        "velocidade": 80,
+        "especial": 100,
+        "media": 100 
+        },
+        {
+        "codigo": "D8",
+        "name": "Mewtwo",
+        "vida": 106,
+        "ataque": 110,
+        "defesa": 90,
+        "velocidade": 130,
+        "especial": 154,
+        "media": 118 
+        }
+        ]
+    },
+"anime_characters": {   
+    "atributos": ["forca", "inteligencia", "fofura"],
+    "cartas": [
+        {
+        "codigo": "A1",
+        "name": "Naruto",
+        "forca": 8,
+        "inteligencia": 3,
+        "fofura": 4
+        },
+        {
+        "codigo": "A2",
+        "name": "Yato",
+        "forca": 7,
+        "inteligencia": 3,
+        "fofura": 6
+        },
+        {
+        "codigo": "A3",
+        "name": "Sakura",
+        "forca": 6,
+        "inteligencia": 6,
+        "fofura": 5
+        },
+        {
+        "codigo": "A4",
+        "name": "Tanjiro",
+        "forca": 5,
+        "inteligencia": 4,
+        "fofura": 7
+        },
+        {
+        "codigo": "A5",
+        "name": "Levi",
+        "forca": 6,
+        "inteligencia": 6,
+        "fofura": 2
+        },
+        {
+        "codigo": "A6",
+        "name": "Killua",
+        "forca": 6,
+        "inteligencia": 5,
+        "fofura": 5
+        },
+        {
+        "codigo": "A7",
+        "name": "Kazuma",
+        "forca": 3,
+        "inteligencia": 5,
+        "fofura": 4
+        },
+        {
+        "codigo": "A8",
+        "name": "All Might",
+        "forca": 7,
+        "inteligencia": 5,
+        "fofura": 1
+        },
+        {
+        "codigo": "B1",
+        "name": "Luffy",
+        "forca": 8,
+        "inteligencia": 1,
+        "fofura": 3
+        },
+        {
+        "codigo": "B2",
+        "name": "Madara U.",
+        "forca": 8,
+        "inteligencia": 6,
+        "fofura": 0
+        },
+        {
+        "codigo": "B3",
+        "name": "Saitama",
+        "forca": 10,
+        "inteligencia": 4,
+        "fofura": 1
+        },
+        {
+        "codigo": "B4",
+        "name": "Goku",
+        "forca": 9,
+        "inteligencia": 2,
+        "fofura": 3
+        },
+        {
+        "codigo": "B5",
+        "name": "Aqua",
+        "forca": 2,
+        "inteligencia": 1,
+        "fofura": 6
+        },
+        {
+        "codigo": "B6",
+        "name": "M. Kurisu.",
+        "forca": 0,
+        "inteligencia": 9,
+        "fofura": 9
+        },
+        {
+        "codigo": "B7",
+        "name": "L",
+        "forca": 2,
+        "inteligencia": 10,
+        "fofura": 0
+        },
+        {
+        "codigo": "B8",
+        "name": "Sora",
+        "forca": 1,
+        "inteligencia": 8,
+        "fofura": 3
+        },
+        {
+        "codigo": "C1",
+        "name": "Edward E.",
+        "forca": 5,
+        "inteligencia": 7,
+        "fofura": 4
+        },
+        {
+        "codigo": "C2",
+        "name": "Sasuke",
+        "forca": 8,
+        "inteligencia": 6,
+        "fofura": 2
+        },
+        {
+        "codigo": "C3",
+        "name": "Meliodas",
+        "forca": 7,
+        "inteligencia": 4,
+        "fofura": 3
+        },
+        {
+        "codigo": "C4",
+        "name": "Zenitsu",
+        "forca": 5,
+        "inteligencia": 3,
+        "fofura": 5
+        },
+        {
+        "codigo": "C5",
+        "name": "Eren",
+        "forca": 6,
+        "inteligencia": 4,
+        "fofura": 2
+        },
+        {
+        "codigo": "C6",
+        "name": "Hisoka",
+        "forca": 5,
+        "inteligencia": 6,
+        "fofura": 0
+        },
+        {
+        "codigo": "C7",
+        "name": "Natsu",
+        "forca": 6,
+        "inteligencia": 3,
+        "fofura": 4
+        },
+        {
+        "codigo": "C8",
+        "name": "Happy",
+        "forca": 1,
+        "inteligencia": 2,
+        "fofura": 10
+        },
+        {
+        "codigo": "D1",
+        "name": "Kaguya-sama",
+        "forca": 1,
+        "inteligencia": 7,
+        "fofura": 7
+        },
+        {
+        "codigo": "D2",
+        "name": "Shiro",
+        "forca": 0,
+        "inteligencia": 9,
+        "fofura": 8
+        },
+        {
+        "codigo": "D3",
+        "name": "Megumin",
+        "forca": 4,
+        "inteligencia": 1,
+        "fofura": 7
+        },
+        {
+        "codigo": "D4",
+        "name": "Nezuko",
+        "forca": 5,
+        "inteligencia": 2,
+        "fofura": 8
+        },
+        {
+        "codigo": "D5",
+        "name": "Jotaro J.",
+        "forca": 7,
+        "inteligencia": 5,
+        "fofura": 9
+        },
+        {
+        "codigo": "D6",
+        "name": "Midorya",
+        "forca": 6,
+        "inteligencia": 5,
+        "fofura": 7
+        },
+        {
+        "codigo": "D7",
+        "name": "Uraraka",
+        "forca": 4,
+        "inteligencia": 5,
+        "fofura": 7
+        },
+        {
+        "codigo": "D8",
+        "name": "Misa Amane",
+        "forca": 0,
+        "inteligencia": 0,
+        "fofura": 8
+        }
+        ]
+    }
+}
