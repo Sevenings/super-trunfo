@@ -1,23 +1,24 @@
 package gameobjects;
 
 import org.json.*;
+import java.util.*;
 
 public class Carta {
     private String nome;
-    private String código;
-    private String[] lista_atributos;
-    private int[] atributos;
+    private String id;
+    private ArrayList<Atributo> atributos;
+    private ArrayList<String> curiosidades;
 
-    public Carta(String nome, String código, String[] lista_atributos, int[] atributos) {
+    public Carta(String nome, String id, ArrayList<Atributo> atributos, ArrayList<String> curiosidades) {
         this.nome = nome;
-        this.código = código;
-        this.lista_atributos = lista_atributos;
+        this.id = id;
         this.atributos = atributos;
+        this.curiosidades = curiosidades;
     }
     
     @Override
     public String toString() {
-        String output = código + "|" + nome + "\t";   //Não colocar nomes grandes para a formatação ficar bonita
+        String output = id + "|" + nome + "\t";   //Não colocar nomes grandes para a formatação ficar bonita
         if (nome.length() < 5)
             output += "\t";
         for (int i = 0; i < lista_atributos.length; i++) {

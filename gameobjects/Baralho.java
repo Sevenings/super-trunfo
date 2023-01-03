@@ -7,13 +7,10 @@ import java.util.stream.*;
 
 public class Baralho extends LinkedList<Carta> {
     private String tema;
-    private String temas_filepath = "lista_cartas.json";
+    private String temas_filepath = "lista_teste.json";
 
-    public Baralho(String tema) {
+    public void carregar(String tema) {
         this.tema = tema;
-    }
-
-    public void carregar() {
         JSONObject tema_json = readFromFile(temas_filepath).getJSONObject(tema);
         JSONArray atributos = tema_json.getJSONArray("atributos");
         JSONArray lista_cartas_json = tema_json.getJSONArray("cartas");
