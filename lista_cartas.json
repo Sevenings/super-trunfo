@@ -1,552 +1,1030 @@
 {
 "pokemon": {
-    "atributos": ["vida", "ataque", "defesa", "velocidade", "especial", "media"],
     "cartas": [
         {
-        "codigo": "A1",
-        "name": "Bulbasaur",
-        "vida": 45,
-        "ataque": 49,
-        "defesa": 49,
-        "velocidade": 45,
-        "especial": 65,
-        "media": 50.6
+        "id": "A1",
+        "nome": "Bulbasaur",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 6.9,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 49,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 49,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 45,
+            "unidade": null
+        },
+        "curiosidades": ["Pokemon sapo alface"]
         },
         {
-        "codigo": "A2",
-        "name": "Venusaur",
-        "vida": 80,
-        "ataque": 82,
-        "defesa": 83,
-        "velocidade": 80,
-        "especial": 100,
-        "media": 85
+        "id": "A2",
+        "nome": "Venusaur",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 100,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 82,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 83,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 80,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "A3",
-        "name": "Charmander",
-        "vida": 39,
-        "ataque": 52,
-        "defesa": 43,
-        "velocidade": 65,
-        "especial": 50,
-        "media": 49.8
+        "id": "A3",
+        "nome": "Charmander",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 8.5,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 52,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 43,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 65,
+            "unidade": null
+        },
+        "curiosidades": ["O fogo em sua calda é reflexo de sua vitalidade"]
         },
         {
-        "codigo": "A4",
-        "name": "Charizard",
-        "vida": 78,
-        "ataque": 84,
-        "defesa": 78,
-        "velocidade": 100,
-        "especial": 85,
-        "media": 85
+        "id": "A4",
+        "nome": "Charizard",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 90.5,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 84,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 78,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 100,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "A5",
-        "name": "Squirtle",
-        "vida": 44,
-        "ataque": 48,
-        "defesa": 65,
-        "velocidade": 43,
-        "especial": 50,
-        "media": 50
+        "id": "A5",
+        "nome": "Squirtle",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 9.0,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 48,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 65,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 43,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "A6",
-        "name": "Blastoise",
-        "vida": 79,
-        "ataque": 83,
-        "defesa": 100,
-        "velocidade": 78,
-        "especial": 85,
-        "media": 85
+        "id": "A6",
+        "nome": "Blastoise",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 85.5,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 83,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 100,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 78,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "A7",
-        "name": "Caterpie",
-        "vida": 45,
-        "ataque": 30,
-        "defesa": 35,
-        "velocidade": 45,
-        "especial": 20,
-        "media": 35
+        "id": "A7",
+        "nome": "Caterpie",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 2.9,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 30,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 35,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 45,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "A8",
-        "name": "Butterfree",
-        "vida": 60,
-        "ataque": 45,
-        "defesa": 50,
-        "velocidade": 70,
-        "especial": 80,
-        "media": 61
+        "id": "A8",
+        "nome": "Butterfree",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 32,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 45,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 50,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 70,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "B1",
-        "name": "Weedle",
-        "vida": 40,
-        "ataque": 35,
-        "defesa": 30,
-        "velocidade": 50,
-        "especial": 20,
-        "media": 35
+        "id": "B1",
+        "nome": "Weedle",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 3.2,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 35,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 30,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 50,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "B2",
-        "name": "Beedrill",
-        "vida": 65,
-        "ataque": 80,
-        "defesa": 40,
-        "velocidade": 75,
-        "especial": 45,
-        "media": 61
+        "id": "B2",
+        "nome": "Beedrill",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 29.5,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 80,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 40,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 75,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "B3",
-        "name": "Pidgey",
-        "vida": 40,
-        "ataque": 45,
-        "defesa": 40,
-        "velocidade": 56,
-        "especial": 35,
-        "media": 43.2
+        "id": "B3",
+        "nome": "Pidgey",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 1.8,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 45,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 40,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 56,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "B4",
-        "name": "Pidgeot",
-        "vida": 83,
-        "ataque": 80,
-        "defesa": 75,
-        "velocidade": 91,
-        "especial": 70,
-        "media": 79.8
+        "id": "B4",
+        "nome": "Pidgeot",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 39.5,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 80,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 75,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 91,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "B5",
-        "name": "Rattata",
-        "vida": 30,
-        "ataque": 56,
-        "defesa": 35,
-        "velocidade": 72,
-        "especial": 25,
-        "media": 43.6 
+        "id": "B5",
+        "nome": "Rattata",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 3.5,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 56,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 35,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 72,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "B6",
-        "name": "Pikachu",
-        "vida": 35,
-        "ataque": 55,
-        "defesa": 30,
-        "velocidade": 90,
-        "especial": 50,
-        "media": 52
+        "id": "B6",
+        "nome": "Pikachu",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 6.0,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 55,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 30,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 90,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "B7",
-        "name": "Raichu",
-        "vida": 60,
-        "ataque": 90,
-        "defesa": 55,
-        "velocidade": 100,
-        "especial": 90,
-        "media": 79 
+        "id": "B7",
+        "nome": "Raichu",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 30,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 90,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 55,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 100,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "B8",
-        "name": "Clefairy",
-        "vida": 70,
-        "ataque": 45,
-        "defesa": 48,
-        "velocidade": 35,
-        "especial": 60,
-        "media": 51.6 
+        "id": "B8",
+        "nome": "Clefairy",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 7.5,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 45,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 48,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 35,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "C1",
-        "name": "Meowth",
-        "vida": 40,
-        "ataque": 45,
-        "defesa": 35,
-        "velocidade": 90,
-        "especial": 40,
-        "media": 50 
+        "id": "C1",
+        "nome": "Meowth",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 4.2,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 45,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 35,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 90,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "C2",
-        "name": "Parasect",
-        "vida": 60,
-        "ataque": 95,
-        "defesa": 80,
-        "velocidade": 30,
-        "especial": 80,
-        "media": 69 
+        "id": "C2",
+        "nome": "Parasect",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 29.5,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 95,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 80,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 30,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "C3",
-        "name": "Alakazam",
-        "vida": 55,
-        "ataque": 50,
-        "defesa": 45,
-        "velocidade": 120,
-        "especial": 135,
-        "media": 81 
+        "id": "C3",
+        "nome": "Alakazam",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 48,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 50,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 45,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 120,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "C4",
-        "name": "Arcanine",
-        "vida": 90,
-        "ataque": 110,
-        "defesa": 80,
-        "velocidade": 95,
-        "especial": 80,
-        "media": 91 
+        "id": "C4",
+        "nome": "Arcanine",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 155,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 110,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 80,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 95,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "C5",
-        "name": "Psyduck",
-        "vida": 50,
-        "ataque": 52,
-        "defesa": 48,
-        "velocidade": 55,
-        "especial": 50,
-        "media": 51 
+        "id": "C5",
+        "nome": "Psyduck",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 19.6,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 52,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 48,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 55,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "C6",
-        "name": "Geodude",
-        "vida": 40,
-        "ataque": 80,
-        "defesa": 100,
-        "velocidade": 20,
-        "especial": 30,
-        "media": 54 
+        "id": "C6",
+        "nome": "Geodude",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 20,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 80,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 100,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 20,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "C7",
-        "name": "Ponyta",
-        "vida": 50,
-        "ataque": 85,
-        "defesa": 55,
-        "velocidade": 90,
-        "especial": 65,
-        "media": 69 
+        "id": "C7",
+        "nome": "Ponyta",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 30,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 85,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 55,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 90,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "C8",
-        "name": "Magnemite",
-        "vida": 25,
-        "ataque": 35,
-        "defesa": 70,
-        "velocidade": 45,
-        "especial": 95,
-        "media": 54 
+        "id": "C8",
+        "nome": "Magnemite",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 6,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 35,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 70,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 45,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "D1",
-        "name": "Seel",
-        "vida": 65,
-        "ataque": 45,
-        "defesa": 55,
-        "velocidade": 45,
-        "especial": 70,
-        "media": 56 
+        "id": "D1",
+        "nome": "Seel",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 90,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 45,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 55,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 45,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "D2",
-        "name": "Gengar",
-        "vida": 60,
-        "ataque": 65,
-        "defesa": 60,
-        "velocidade": 110,
-        "especial": 130,
-        "media": 85 
+        "id": "D2",
+        "nome": "Gengar",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 40.5,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 65,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 60,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 110,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "D3",
-        "name": "Onix",
-        "vida": 35,
-        "ataque": 45,
-        "defesa": 160,
-        "velocidade": 70,
-        "especial": 30,
-        "media": 68 
+        "id": "D3",
+        "nome": "Onix",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 210,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 45,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 160,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 70,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "D4",
-        "name": "Exeggutor",
-        "vida": 95,
-        "ataque": 95,
-        "defesa": 85,
-        "velocidade": 55,
-        "especial": 125,
-        "media": 91 
+        "id": "D4",
+        "nome": "Exeggutor",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 120,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 95,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 85,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 55,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "D5",
-        "name": "Staryu",
-        "vida": 30,
-        "ataque": 45,
-        "defesa": 55,
-        "velocidade": 85,
-        "especial": 70,
-        "media": 57 
+        "id": "D5",
+        "nome": "Staryu",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 34.5,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 45,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 55,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 85,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "D6",
-        "name": "Kangaskhan",
-        "vida": 105,
-        "ataque": 95,
-        "defesa": 80,
-        "velocidade": 90,
-        "especial": 40,
-        "media": 82 
+        "id": "D6",
+        "nome": "Kangaskhan",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 80,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 95,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 80,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 90,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "D7",
-        "name": "Dragonite",
-        "vida": 91,
-        "ataque": 134,
-        "defesa": 95,
-        "velocidade": 80,
-        "especial": 100,
-        "media": 100 
+        "id": "D7",
+        "nome": "Dragonite",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 210,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 134,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 95,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 80,
+            "unidade": null
+        },
+        "curiosidades": []
         },
         {
-        "codigo": "D8",
-        "name": "Mewtwo",
-        "vida": 106,
-        "ataque": 110,
-        "defesa": 90,
-        "velocidade": 130,
-        "especial": 154,
-        "media": 118 
+        "id": "D8",
+        "nome": "Mewtwo",
+        "atr1": {
+            "nome": "Peso",
+            "valor": 122,
+            "unidade": "kg"
+        },
+        "atr2": {
+            "nome": "Ataque",
+            "valor": 110,
+            "unidade": null
+        },
+        "atr3": {
+            "nome": "Defesa",
+            "valor": 90,
+            "unidade": null
+        },
+        "atr4": {
+            "nome": "Velocidade",
+            "valor": 130,
+            "unidade": null
+        },
+        "curiosidades": []
         }
         ]
     },
 "anime_characters": {   
-    "atributos": ["forca", "inteligencia", "fofura"],
     "cartas": [
         {
-        "codigo": "A1",
-        "name": "Naruto",
+        "id": "A1",
+        "nome": "Naruto",
         "forca": 8,
         "inteligencia": 3,
         "fofura": 4
         },
         {
-        "codigo": "A2",
-        "name": "Yato",
+        "id": "A2",
+        "nome": "Yato",
         "forca": 7,
         "inteligencia": 3,
         "fofura": 6
         },
         {
-        "codigo": "A3",
-        "name": "Sakura",
+        "id": "A3",
+        "nome": "Sakura",
         "forca": 6,
         "inteligencia": 6,
         "fofura": 5
         },
         {
-        "codigo": "A4",
-        "name": "Tanjiro",
+        "id": "A4",
+        "nome": "Tanjiro",
         "forca": 5,
         "inteligencia": 4,
         "fofura": 7
         },
         {
-        "codigo": "A5",
-        "name": "Levi",
+        "id": "A5",
+        "nome": "Levi",
         "forca": 6,
         "inteligencia": 6,
         "fofura": 2
         },
         {
-        "codigo": "A6",
-        "name": "Killua",
+        "id": "A6",
+        "nome": "Killua",
         "forca": 6,
         "inteligencia": 5,
         "fofura": 5
         },
         {
-        "codigo": "A7",
-        "name": "Kazuma",
+        "id": "A7",
+        "nome": "Kazuma",
         "forca": 3,
         "inteligencia": 5,
         "fofura": 4
         },
         {
-        "codigo": "A8",
-        "name": "All Might",
+        "id": "A8",
+        "nome": "All Might",
         "forca": 7,
         "inteligencia": 5,
         "fofura": 1
         },
         {
-        "codigo": "B1",
-        "name": "Luffy",
+        "id": "B1",
+        "nome": "Luffy",
         "forca": 8,
         "inteligencia": 1,
         "fofura": 3
         },
         {
-        "codigo": "B2",
-        "name": "Madara U.",
+        "id": "B2",
+        "nome": "Madara U.",
         "forca": 8,
         "inteligencia": 6,
         "fofura": 0
         },
         {
-        "codigo": "B3",
-        "name": "Saitama",
+        "id": "B3",
+        "nome": "Saitama",
         "forca": 10,
         "inteligencia": 4,
         "fofura": 1
         },
         {
-        "codigo": "B4",
-        "name": "Goku",
+        "id": "B4",
+        "nome": "Goku",
         "forca": 9,
         "inteligencia": 2,
         "fofura": 3
         },
         {
-        "codigo": "B5",
-        "name": "Aqua",
+        "id": "B5",
+        "nome": "Aqua",
         "forca": 2,
         "inteligencia": 1,
         "fofura": 6
         },
         {
-        "codigo": "B6",
-        "name": "M. Kurisu.",
+        "id": "B6",
+        "nome": "M. Kurisu.",
         "forca": 0,
         "inteligencia": 9,
         "fofura": 9
         },
         {
-        "codigo": "B7",
-        "name": "L",
+        "id": "B7",
+        "nome": "L",
         "forca": 2,
         "inteligencia": 10,
         "fofura": 0
         },
         {
-        "codigo": "B8",
-        "name": "Sora",
+        "id": "B8",
+        "nome": "Sora",
         "forca": 1,
         "inteligencia": 8,
         "fofura": 3
         },
         {
-        "codigo": "C1",
-        "name": "Edward E.",
+        "id": "C1",
+        "nome": "Edward E.",
         "forca": 5,
         "inteligencia": 7,
         "fofura": 4
         },
         {
-        "codigo": "C2",
-        "name": "Sasuke",
+        "id": "C2",
+        "nome": "Sasuke",
         "forca": 8,
         "inteligencia": 6,
         "fofura": 2
         },
         {
-        "codigo": "C3",
-        "name": "Meliodas",
+        "id": "C3",
+        "nome": "Meliodas",
         "forca": 7,
         "inteligencia": 4,
         "fofura": 3
         },
         {
-        "codigo": "C4",
-        "name": "Zenitsu",
+        "id": "C4",
+        "nome": "Zenitsu",
         "forca": 5,
         "inteligencia": 3,
         "fofura": 5
         },
         {
-        "codigo": "C5",
-        "name": "Eren",
+        "id": "C5",
+        "nome": "Eren",
         "forca": 6,
         "inteligencia": 4,
         "fofura": 2
         },
         {
-        "codigo": "C6",
-        "name": "Hisoka",
+        "id": "C6",
+        "nome": "Hisoka",
         "forca": 5,
         "inteligencia": 6,
         "fofura": 0
         },
         {
-        "codigo": "C7",
-        "name": "Natsu",
+        "id": "C7",
+        "nome": "Natsu",
         "forca": 6,
         "inteligencia": 3,
         "fofura": 4
         },
         {
-        "codigo": "C8",
-        "name": "Happy",
+        "id": "C8",
+        "nome": "Happy",
         "forca": 1,
         "inteligencia": 2,
         "fofura": 10
         },
         {
-        "codigo": "D1",
-        "name": "Kaguya-sama",
+        "id": "D1",
+        "nome": "Kaguya-sama",
         "forca": 1,
         "inteligencia": 7,
         "fofura": 7
         },
         {
-        "codigo": "D2",
-        "name": "Shiro",
+        "id": "D2",
+        "nome": "Shiro",
         "forca": 0,
         "inteligencia": 9,
         "fofura": 8
         },
         {
-        "codigo": "D3",
-        "name": "Megumin",
+        "id": "D3",
+        "nome": "Megumin",
         "forca": 4,
         "inteligencia": 1,
         "fofura": 7
         },
         {
-        "codigo": "D4",
-        "name": "Nezuko",
+        "id": "D4",
+        "nome": "Nezuko",
         "forca": 5,
         "inteligencia": 2,
         "fofura": 8
         },
         {
-        "codigo": "D5",
-        "name": "Jotaro J.",
+        "id": "D5",
+        "nome": "Jotaro J.",
         "forca": 7,
         "inteligencia": 5,
         "fofura": 9
         },
         {
-        "codigo": "D6",
-        "name": "Midorya",
+        "id": "D6",
+        "nome": "Midorya",
         "forca": 6,
         "inteligencia": 5,
         "fofura": 7
         },
         {
-        "codigo": "D7",
-        "name": "Uraraka",
+        "id": "D7",
+        "nome": "Uraraka",
         "forca": 4,
         "inteligencia": 5,
         "fofura": 7
         },
         {
-        "codigo": "D8",
-        "name": "Misa Amane",
+        "id": "D8",
+        "nome": "Misa Amane",
         "forca": 0,
         "inteligencia": 0,
         "fofura": 8

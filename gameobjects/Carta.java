@@ -9,27 +9,37 @@ public class Carta {
     private ArrayList<Atributo> atributos;
     private ArrayList<String> curiosidades;
 
-    public Carta(String nome, String id, ArrayList<Atributo> atributos, ArrayList<String> curiosidades) {
-        this.nome = nome;
-        this.id = id;
-        this.atributos = atributos;
-        this.curiosidades = curiosidades;
+    public Carta(JSONObject data) {
+        try { 
+            this.nome = data.getString("nome");
+            this.id = data.getString("id");
+
+            this.atributos = new ArrayList<Atributo>(4);
+            this.atributos.add(new Atributo(data.getJSONObject("atr1"))); 
+            this.atributos.add(new Atributo(data.getJSONObject("atr2"))); 
+            this.atributos.add(new Atributo(data.getJSONObject("atr3"))); 
+            this.atributos.add(new Atributo(data.getJSONObject("atr4"))); 
+
+            this.curiosidades = new ArrayList<String>();
+            JSONArray data_curiosidades = data.getJSONArray("curiosidades");
+            for (int i = 0; i < data_curiosidades.length(); i++) {
+                this.curiosidades.add(data_curiosidades.getString(i));
+            } 
+        } catch (Exception e) {
+            System.out.println("Não foi possível carregar carta " + e);
+        }
     }
     
     @Override
     public String toString() {
-        String output = id + "|" + nome + "\t";   //Não colocar nomes grandes para a formatação ficar bonita
-        if (nome.length() < 5)
-            output += "\t";
-        for (int i = 0; i < lista_atributos.length; i++) {
-            output += " | " + lista_atributos[i] + ":";
-
-            for (int j = 3 - (new Integer(atributos[i])).toString().length(); j > 0; j -= 1) {
-                output += " ";
-            }
-
-            output += atributos[i];
+        String output = id + " " + nome;
+        for (String curiosidade : curiosidades) {   // No Futuro, mostrar 1 curiosidade aleatória
+            output += "\n " + "\"" + curiosidade + "\"";
         }
-        return output; 
+        for (Atributo atr : atributos) {
+            output += "\n *" + atr.toString();
+        }
+        
+        return output;
     }
 }

@@ -4,31 +4,23 @@ import java.util.*;
 import org.json.*;
 import java.io.*;
 import java.util.stream.*;
+import jogador.*;
 
 public class Baralho extends LinkedList<Carta> {
     private String tema;
-    private String temas_filepath = "lista_teste.json";
+    private String temas_filepath = "lista_cartas.json";
 
     public void carregar(String tema) {
         this.tema = tema;
-        JSONObject tema_json = readFromFile(temas_filepath).getJSONObject(tema);
-        JSONArray atributos = tema_json.getJSONArray("atributos");
-        JSONArray lista_cartas_json = tema_json.getJSONArray("cartas");
-
-        String[] atributos_names = new String[atributos.length()];	//Lê os nomes dos atributos na JSONArray atributos
-		for (int j = 0; j < atributos.length(); j++) {
-			atributos_names[j] = atributos.get(j).toString();
-		}
-       
-        for (int i = 0; i < lista_cartas_json.length(); i++) {		//Lê as informações de cada carta e salva no próprio array
-            JSONObject carta_json = new JSONObject(lista_cartas_json.get(i).toString());
-            String nome = carta_json.getString("name");				//Nome da carta
-            String código = carta_json.getString("codigo");			//Código da carta
-            
-            int[] atributos_values = new int[atributos_names.length];	//Valores de cada atributo da carta
-            for (int j = 0; j < atributos.length(); j++)
-                atributos_values[j] = carta_json.getInt(atributos_names[j]);
-            this.add(new Carta(nome, código, atributos_names, atributos_values));	//Gera a carta e adiciona na própria Array de cartas
+        try {
+            JSONObject data_tema = readFromFile(temas_filepath).getJSONObject(tema);
+            JSONArray data_cartas = data_tema.getJSONArray("cartas");
+            for (int i = 0; i < data_cartas.length(); i++) {
+                JSONObject carta_json = data_cartas.getJSONObject(i);
+                this.add(new Carta(carta_json));
+            } 
+        } catch (Exception e) {
+            System.out.println("Não foi possível carregar o Baralho " + e);
         }
     }
 
