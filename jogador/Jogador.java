@@ -7,6 +7,7 @@ public abstract class Jogador implements Comparable<Jogador> {
     private String nome;
     private Baralho monte = new Baralho();
     private Carta cartaNaMao;
+    private Atributo atributoEscolhido;
     
     public Jogador(String nome) {
         this.nome = nome;
@@ -22,6 +23,10 @@ public abstract class Jogador implements Comparable<Jogador> {
 
     public Baralho getMonte() {
         return this.monte;
+    }
+
+    public int quantasCartasNaMao() {
+        return this.getMonte().size();
     }
 
     public abstract String escolheAtributo();

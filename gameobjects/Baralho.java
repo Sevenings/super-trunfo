@@ -10,7 +10,7 @@ public class Baralho extends LinkedList<Carta> {
     private String tema;
     private String temas_filepath = "lista_cartas.json";
 
-    public void carregar(String tema) {
+    public void carregar(String tema) throws ThemeNotFoundException {
         this.tema = tema;
         try {
             JSONObject data_tema = readFromFile(temas_filepath).getJSONObject(tema);
@@ -19,8 +19,8 @@ public class Baralho extends LinkedList<Carta> {
                 JSONObject carta_json = data_cartas.getJSONObject(i);
                 this.add(new Carta(carta_json));
             } 
-        } catch (Exception e) {
-            System.out.println("Não foi possível carregar o Baralho " + e);
+        } catch (JSONException e) {
+            throw new ThemeNotFoundException("Falha ao buscar o tema " + tema + " no arquivo " + temas_filepath);
         }
     }
 
