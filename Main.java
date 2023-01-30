@@ -5,6 +5,6 @@ public class Main {
         Baralho super_trunfo = new Baralho();
         super_trunfo.carregar("pokemon");
 
-
+        super_trunfo.listarCartas();
     }
 }
