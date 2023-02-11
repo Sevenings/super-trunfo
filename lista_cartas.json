@@ -1,28 +1,36 @@
 {
 "pokemon": {
+    "atr1": {
+        "nome": "Peso",
+        "unidade": "kg"
+    },
+    "atr2": {
+        "nome": "Ataque",
+        "unidade": null
+    },
+    "atr3": {
+        "nome": "Defesa",
+        "unidade": null
+    },
+    "atr4": {
+        "nome": "Velocidade",
+        "unidade": null
+    },
     "cartas": [
         {
         "id": "A1",
         "nome": "Bulbasaur",
         "atr1": {
-            "nome": "Peso",
-            "valor": 6.9,
-            "unidade": "kg"
+            "valor": 6.9
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 49,
-            "unidade": null
+            "valor": 49
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 49,
-            "unidade": null
+            "valor": 49
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "curiosidades": ["Pokemon sapo alface"]
         },
@@ -30,24 +38,16 @@
         "id": "A2",
         "nome": "Venusaur",
         "atr1": {
-            "nome": "Peso",
-            "valor": 100,
-            "unidade": "kg"
+            "valor": 100
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 82,
-            "unidade": null
+            "valor": 82
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 83,
-            "unidade": null
+            "valor": 83
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 80,
-            "unidade": null
+            "valor": 80
         },
         "curiosidades": []
         },
@@ -55,24 +55,16 @@
         "id": "A3",
         "nome": "Charmander",
         "atr1": {
-            "nome": "Peso",
-            "valor": 8.5,
-            "unidade": "kg"
+            "valor": 8.5
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 52,
-            "unidade": null
+            "valor": 52
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 43,
-            "unidade": null
+            "valor": 43
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 65,
-            "unidade": null
+            "valor": 65
         },
         "curiosidades": ["O fogo em sua calda é reflexo de sua vitalidade"]
         },
@@ -80,24 +72,16 @@
         "id": "A4",
         "nome": "Charizard",
         "atr1": {
-            "nome": "Peso",
-            "valor": 90.5,
-            "unidade": "kg"
+            "valor": 90.5
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 84,
-            "unidade": null
+            "valor": 84
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 78,
-            "unidade": null
+            "valor": 78
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 100,
-            "unidade": null
+            "valor": 100
         },
         "curiosidades": []
         },
@@ -105,24 +89,16 @@
         "id": "A5",
         "nome": "Squirtle",
         "atr1": {
-            "nome": "Peso",
-            "valor": 9.0,
-            "unidade": "kg"
+            "valor": 9.0
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 48,
-            "unidade": null
+            "valor": 48
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 65,
-            "unidade": null
+            "valor": 65
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 43,
-            "unidade": null
+            "valor": 43
         },
         "curiosidades": []
         },
@@ -130,24 +106,16 @@
         "id": "A6",
         "nome": "Blastoise",
         "atr1": {
-            "nome": "Peso",
-            "valor": 85.5,
-            "unidade": "kg"
+            "valor": 85.5
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 83,
-            "unidade": null
+            "valor": 83
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 100,
-            "unidade": null
+            "valor": 100
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 78,
-            "unidade": null
+            "valor": 78
         },
         "curiosidades": []
         },
@@ -155,24 +123,16 @@
         "id": "A7",
         "nome": "Caterpie",
         "atr1": {
-            "nome": "Peso",
-            "valor": 2.9,
-            "unidade": "kg"
+            "valor": 2.9
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 30,
-            "unidade": null
+            "valor": 30
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 35,
-            "unidade": null
+            "valor": 35
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "curiosidades": []
         },
@@ -180,24 +140,16 @@
         "id": "A8",
         "nome": "Butterfree",
         "atr1": {
-            "nome": "Peso",
-            "valor": 32,
-            "unidade": "kg"
+            "valor": 32
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 50,
-            "unidade": null
+            "valor": 50
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 70,
-            "unidade": null
+            "valor": 70
         },
         "curiosidades": []
         },
@@ -205,24 +157,16 @@
         "id": "B1",
         "nome": "Weedle",
         "atr1": {
-            "nome": "Peso",
-            "valor": 3.2,
-            "unidade": "kg"
+            "valor": 3.2
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 35,
-            "unidade": null
+            "valor": 35
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 30,
-            "unidade": null
+            "valor": 30
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 50,
-            "unidade": null
+            "valor": 50
         },
         "curiosidades": []
         },
@@ -230,24 +174,16 @@
         "id": "B2",
         "nome": "Beedrill",
         "atr1": {
-            "nome": "Peso",
-            "valor": 29.5,
-            "unidade": "kg"
+            "valor": 29.5
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 80,
-            "unidade": null
+            "valor": 80
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 40,
-            "unidade": null
+            "valor": 40
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 75,
-            "unidade": null
+            "valor": 75
         },
         "curiosidades": []
         },
@@ -255,24 +191,16 @@
         "id": "B3",
         "nome": "Pidgey",
         "atr1": {
-            "nome": "Peso",
-            "valor": 1.8,
-            "unidade": "kg"
+            "valor": 1.8
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 40,
-            "unidade": null
+            "valor": 40
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 56,
-            "unidade": null
+            "valor": 56
         },
         "curiosidades": []
         },
@@ -280,24 +208,16 @@
         "id": "B4",
         "nome": "Pidgeot",
         "atr1": {
-            "nome": "Peso",
-            "valor": 39.5,
-            "unidade": "kg"
+            "valor": 39.5
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 80,
-            "unidade": null
+            "valor": 80
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 75,
-            "unidade": null
+            "valor": 75
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 91,
-            "unidade": null
+            "valor": 91
         },
         "curiosidades": []
         },
@@ -305,24 +225,16 @@
         "id": "B5",
         "nome": "Rattata",
         "atr1": {
-            "nome": "Peso",
-            "valor": 3.5,
-            "unidade": "kg"
+            "valor": 3.5
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 56,
-            "unidade": null
+            "valor": 56
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 35,
-            "unidade": null
+            "valor": 35
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 72,
-            "unidade": null
+            "valor": 72
         },
         "curiosidades": []
         },
@@ -330,24 +242,16 @@
         "id": "B6",
         "nome": "Pikachu",
         "atr1": {
-            "nome": "Peso",
-            "valor": 6.0,
-            "unidade": "kg"
+            "valor": 6.0
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 55,
-            "unidade": null
+            "valor": 55
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 30,
-            "unidade": null
+            "valor": 30
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 90,
-            "unidade": null
+            "valor": 90
         },
         "curiosidades": []
         },
@@ -355,24 +259,16 @@
         "id": "B7",
         "nome": "Raichu",
         "atr1": {
-            "nome": "Peso",
-            "valor": 30,
-            "unidade": "kg"
+            "valor": 30
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 90,
-            "unidade": null
+            "valor": 90
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 55,
-            "unidade": null
+            "valor": 55
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 100,
-            "unidade": null
+            "valor": 100
         },
         "curiosidades": []
         },
@@ -380,24 +276,16 @@
         "id": "B8",
         "nome": "Clefairy",
         "atr1": {
-            "nome": "Peso",
-            "valor": 7.5,
-            "unidade": "kg"
+            "valor": 7.5
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 48,
-            "unidade": null
+            "valor": 48
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 35,
-            "unidade": null
+            "valor": 35
         },
         "curiosidades": []
         },
@@ -405,24 +293,16 @@
         "id": "C1",
         "nome": "Meowth",
         "atr1": {
-            "nome": "Peso",
-            "valor": 4.2,
-            "unidade": "kg"
+            "valor": 4.2
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 35,
-            "unidade": null
+            "valor": 35
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 90,
-            "unidade": null
+            "valor": 90
         },
         "curiosidades": []
         },
@@ -430,24 +310,16 @@
         "id": "C2",
         "nome": "Parasect",
         "atr1": {
-            "nome": "Peso",
-            "valor": 29.5,
-            "unidade": "kg"
+            "valor": 29.5
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 95,
-            "unidade": null
+            "valor": 95
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 80,
-            "unidade": null
+            "valor": 80
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 30,
-            "unidade": null
+            "valor": 30
         },
         "curiosidades": []
         },
@@ -455,24 +327,16 @@
         "id": "C3",
         "nome": "Alakazam",
         "atr1": {
-            "nome": "Peso",
-            "valor": 48,
-            "unidade": "kg"
+            "valor": 48
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 50,
-            "unidade": null
+            "valor": 50
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 120,
-            "unidade": null
+            "valor": 120
         },
         "curiosidades": []
         },
@@ -480,24 +344,16 @@
         "id": "C4",
         "nome": "Arcanine",
         "atr1": {
-            "nome": "Peso",
-            "valor": 155,
-            "unidade": "kg"
+            "valor": 155
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 110,
-            "unidade": null
+            "valor": 110
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 80,
-            "unidade": null
+            "valor": 80
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 95,
-            "unidade": null
+            "valor": 95
         },
         "curiosidades": []
         },
@@ -505,24 +361,16 @@
         "id": "C5",
         "nome": "Psyduck",
         "atr1": {
-            "nome": "Peso",
-            "valor": 19.6,
-            "unidade": "kg"
+            "valor": 19.6
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 52,
-            "unidade": null
+            "valor": 52
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 48,
-            "unidade": null
+            "valor": 48
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 55,
-            "unidade": null
+            "valor": 55
         },
         "curiosidades": []
         },
@@ -530,24 +378,16 @@
         "id": "C6",
         "nome": "Geodude",
         "atr1": {
-            "nome": "Peso",
-            "valor": 20,
-            "unidade": "kg"
+            "valor": 20
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 80,
-            "unidade": null
+            "valor": 80
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 100,
-            "unidade": null
+            "valor": 100
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 20,
-            "unidade": null
+            "valor": 20
         },
         "curiosidades": []
         },
@@ -555,24 +395,16 @@
         "id": "C7",
         "nome": "Ponyta",
         "atr1": {
-            "nome": "Peso",
-            "valor": 30,
-            "unidade": "kg"
+            "valor": 30
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 85,
-            "unidade": null
+            "valor": 85
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 55,
-            "unidade": null
+            "valor": 55
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 90,
-            "unidade": null
+            "valor": 90
         },
         "curiosidades": []
         },
@@ -580,24 +412,16 @@
         "id": "C8",
         "nome": "Magnemite",
         "atr1": {
-            "nome": "Peso",
-            "valor": 6,
-            "unidade": "kg"
+            "valor": 6
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 35,
-            "unidade": null
+            "valor": 35
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 70,
-            "unidade": null
+            "valor": 70
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "curiosidades": []
         },
@@ -605,24 +429,16 @@
         "id": "D1",
         "nome": "Seel",
         "atr1": {
-            "nome": "Peso",
-            "valor": 90,
-            "unidade": "kg"
+            "valor": 90
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 55,
-            "unidade": null
+            "valor": 55
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "curiosidades": []
         },
@@ -630,24 +446,16 @@
         "id": "D2",
         "nome": "Gengar",
         "atr1": {
-            "nome": "Peso",
-            "valor": 40.5,
-            "unidade": "kg"
+            "valor": 40.5
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 65,
-            "unidade": null
+            "valor": 65
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 60,
-            "unidade": null
+            "valor": 60
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 110,
-            "unidade": null
+            "valor": 110
         },
         "curiosidades": []
         },
@@ -655,24 +463,16 @@
         "id": "D3",
         "nome": "Onix",
         "atr1": {
-            "nome": "Peso",
-            "valor": 210,
-            "unidade": "kg"
+            "valor": 210
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 160,
-            "unidade": null
+            "valor": 160
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 70,
-            "unidade": null
+            "valor": 70
         },
         "curiosidades": []
         },
@@ -680,24 +480,16 @@
         "id": "D4",
         "nome": "Exeggutor",
         "atr1": {
-            "nome": "Peso",
-            "valor": 120,
-            "unidade": "kg"
+            "valor": 120
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 95,
-            "unidade": null
+            "valor": 95
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 85,
-            "unidade": null
+            "valor": 85
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 55,
-            "unidade": null
+            "valor": 55
         },
         "curiosidades": []
         },
@@ -705,24 +497,16 @@
         "id": "D5",
         "nome": "Staryu",
         "atr1": {
-            "nome": "Peso",
-            "valor": 34.5,
-            "unidade": "kg"
+            "valor": 34.5
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 45,
-            "unidade": null
+            "valor": 45
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 55,
-            "unidade": null
+            "valor": 55
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 85,
-            "unidade": null
+            "valor": 85
         },
         "curiosidades": []
         },
@@ -730,24 +514,16 @@
         "id": "D6",
         "nome": "Kangaskhan",
         "atr1": {
-            "nome": "Peso",
-            "valor": 80,
-            "unidade": "kg"
+            "valor": 80
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 95,
-            "unidade": null
+            "valor": 95
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 80,
-            "unidade": null
+            "valor": 80
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 90,
-            "unidade": null
+            "valor": 90
         },
         "curiosidades": []
         },
@@ -755,24 +531,16 @@
         "id": "D7",
         "nome": "Dragonite",
         "atr1": {
-            "nome": "Peso",
-            "valor": 210,
-            "unidade": "kg"
+            "valor": 210
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 134,
-            "unidade": null
+            "valor": 134
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 95,
-            "unidade": null
+            "valor": 95
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 80,
-            "unidade": null
+            "valor": 80
         },
         "curiosidades": []
         },
@@ -780,24 +548,16 @@
         "id": "D8",
         "nome": "Mewtwo",
         "atr1": {
-            "nome": "Peso",
-            "valor": 122,
-            "unidade": "kg"
+            "valor": 122
         },
         "atr2": {
-            "nome": "Ataque",
-            "valor": 110,
-            "unidade": null
+            "valor": 110
         },
         "atr3": {
-            "nome": "Defesa",
-            "valor": 90,
-            "unidade": null
+            "valor": 90
         },
         "atr4": {
-            "nome": "Velocidade",
-            "valor": 130,
-            "unidade": null
+            "valor": 130
         },
         "curiosidades": []
         }
@@ -1030,5 +790,572 @@
         "fofura": 8
         }
         ]
-    }
+    },
+"carros": {    
+    "atr1": {
+        "nome": "velocidade",
+        "unidade": "Km/h"
+    },
+    "atr2": {
+        "nome": "Potência",
+        "unidade": "cv"
+    },
+    "atr3": {
+        "nome": "Peso",
+        "unidade": "Kg"
+    },
+    "atr4": {
+        "nome": "0-100 km/h",
+        "unidade": "s"
+    },
+    "cartas": [
+        {
+        "id": "A1",
+        "nome": "Nissan Skyline GT-R R34",
+        "atr1": {
+            "valor": 320
+        },
+        "atr2": {
+            "valor": 840
+        },
+        "atr3": {
+            "valor": 1525
+        },
+        "atr4": {
+            "valor": 3.2
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "A2",
+        "nome": "Toyota Supra MKIV",
+        "atr1": {
+            "valor": 320
+        },
+        "atr2": {
+            "valor": 494
+        },
+        "atr3": {
+            "valor": 1405
+        },
+        "atr4": {
+            "valor": 3.6
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "A3",
+        "nome": "Mazda RX7",
+        "atr1": {
+            "valor": 256
+        },
+        "atr2": {
+            "valor": 276
+        },
+        "atr3": {
+            "valor": 1270
+        },
+        "atr4": {
+            "valor": 5.3
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "A4",
+        "nome": "Lancer Evolution Evo VIII",
+        "atr1": {
+            "valor": 256
+        },
+        "atr2": {
+            "valor": 276
+        },
+        "atr3": {
+            "valor": 1455
+        },
+        "atr4": {
+            "valor": 4.8 
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "A5",
+        "nome": "Toyota MR2",
+        "atr1": {
+            "valor": 253
+        },
+        "atr2": {
+            "valor": 242
+        },
+        "atr3": {
+            "valor": 1270
+        },
+        "atr4": {
+            "valor": 5.6 
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "A6",
+        "nome": "Subaru Impreza",
+        "atr1": {
+            "valor": 247
+        },
+        "atr2": {
+            "valor": 289
+        },
+        "atr3": {
+            "valor": 1270
+        },
+        "atr4": {
+            "valor": 4.6 
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "A7",
+        "nome": "Maserati Quattroporte GTS",
+        "atr1": {
+            "valor": 310
+        },
+        "atr2": {
+            "valor": 530
+        },
+        "atr3": {
+            "valor": 1900
+        },
+        "atr4": {
+            "valor": 4.7
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "A8",
+        "nome": "Mercedes SLS AMG",
+        "atr1": {
+            "valor": 317
+        },
+        "atr2": {
+            "valor": 571
+        },
+        "atr3": {
+            "valor": 1620
+        },
+        "atr4": {
+            "valor": 3.8
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "B1",
+        "nome": "Ferrari 458 Italia",
+        "atr1": {
+            "valor": 325
+        },
+        "atr2": {
+            "valor": 570
+        },
+        "atr3": {
+            "valor": 1573
+        },
+        "atr4": {
+            "valor": 3.3
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "B2",
+        "nome": "Uno da Firma",
+        "atr1": {
+            "valor": 151
+        },
+        "atr2": {
+            "valor": 57
+        },
+        "atr3": {
+            "valor": 850
+        },
+        "atr4": {
+            "valor": 17.5
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "B3",
+        "nome": "Chevrolet Corvette C7 Stingray",
+        "atr1": {
+            "valor": 290
+        },
+        "atr2": {
+            "valor": 455
+        },
+        "atr3": {
+            "valor": 1496
+        },
+        "atr4": {
+            "valor": 3.8
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "B4",
+        "nome": "Honda Fit",
+        "atr1": {
+            "valor": 204
+        },
+        "atr2": {
+            "valor": 117
+        },
+        "atr3": {
+            "valor": 1150
+        },
+        "atr4": {
+            "valor": 7.4
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "B5",
+        "nome": "Volksvagen Fusca",
+        "atr1": {
+            "valor": 127
+        },
+        "atr2": {
+            "valor": 51
+        },
+        "atr3": {
+            "valor": 771
+        },
+        "atr4": {
+            "valor": 45
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "B6",
+        "nome": "Batmóvel",
+        "atr1": {
+            "valor": 500
+        },
+        "atr2": {
+            "valor": 200
+        },
+        "atr3": {
+            "valor": 2500
+        },
+        "atr4": {
+            "valor": 4.1
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "B7",
+        "nome": "Mitsubishi Eclipse",
+        "atr1": {
+            "valor": 224
+        },
+        "atr2": {
+            "valor": 212
+        },
+        "atr3": {
+            "valor": 1295
+        },
+        "atr4": {
+            "valor": 6
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "B8",
+        "nome": "Audi R8",
+        "atr1": {
+            "valor": 317
+        },
+        "atr2": {
+            "valor": 495
+        },
+        "atr3": {
+            "valor": 1620
+        },
+        "atr4": {
+            "valor": 3.5
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "C1",
+        "nome": "BMW Z4",
+        "atr1": {
+            "valor": 250
+        },
+        "atr2": {
+            "valor": 330
+        },
+        "atr3": {
+            "valor": 1605
+        },
+        "atr4": {
+            "valor": 4.7
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "C2",
+        "nome": "Honda Civic Type R",
+        "atr1": {
+            "valor": 241
+        },
+        "atr2": {
+            "valor": 222
+        },
+        "atr3": {
+            "valor": 1263
+        },
+        "atr4": {
+            "valor": 6.7
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "C3",
+        "nome": "Pagani Zonda R",
+        "atr1": {
+            "valor": 350
+        },
+        "atr2": {
+            "valor": 750
+        },
+        "atr3": {
+            "valor": 1070
+        },
+        "atr4": {
+            "valor": 2.7
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "C4",
+        "nome": "Lamborghini Aventador",
+        "atr1": {
+            "valor": 350
+        },
+        "atr2": {
+            "valor": 750
+        },
+        "atr3": {
+            "valor": 1525
+        },
+        "atr4": {
+            "valor": 2.8
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "C5",
+        "nome": "Toyota Corolla",
+        "atr1": {
+            "valor": 205
+        },
+        "atr2": {
+            "valor": 177
+        },
+        "atr3": {
+            "valor": 1405
+        },
+        "atr4": {
+            "valor": 9.7
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "C6",
+        "nome": "Chevrolet Corsa",
+        "atr1": {
+            "valor": 180
+        },
+        "atr2": {
+            "valor": 104
+        },
+        "atr3": {
+            "valor": 1056
+        },
+        "atr4": {
+            "valor": 12.3
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "C7",
+        "nome": "Volksvagen Jetta",
+        "atr1": {
+            "valor": 202
+        },
+        "atr2": {
+            "valor": 120
+        },
+        "atr3": {
+            "valor": 1311
+        },
+        "atr4": {
+            "valor": 10
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "C8",
+        "nome": "Chevrolet Camaro Amarelo",
+        "atr1": {
+            "valor": 250
+        },
+        "atr2": {
+            "valor": 461
+        },
+        "atr3": {
+            "valor": 1694
+        },
+        "atr4": {
+            "valor": 4.2
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "D1",
+        "nome": "Fiat Fiorino",
+        "atr1": {
+            "valor": 158
+        },
+        "atr2": {
+            "valor": 88
+        },
+        "atr3": {
+            "valor": 1118
+        },
+        "atr4": {
+            "valor": 14.7
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "D2",
+        "nome": "Dodge Charger",
+        "atr1": {
+            "valor": 328
+        },
+        "atr2": {
+            "valor": 717
+        },
+        "atr3": {
+            "valor": 2075
+        },
+        "atr4": {
+            "valor": 3.8
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "D3",
+        "nome": "Chevrolet Chevette",
+        "atr1": {
+            "valor": 160
+        },
+        "atr2": {
+            "valor": 73
+        },
+        "atr3": {
+            "valor": 910
+        },
+        "atr4": {
+            "valor": 15
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "D4",
+        "nome": "Ford Maverick",
+        "atr1": {
+            "valor": 158
+        },
+        "atr2": {
+            "valor": 98
+        },
+        "atr3": {
+            "valor": 1274
+        },
+        "atr4": {
+            "valor": 11.7
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "D5",
+        "nome": "Porsche 911 GT3 RS",
+        "atr1": {
+            "valor": 296
+        },
+        "atr2": {
+            "valor": 525
+        },
+        "atr3": {
+            "valor": 1525
+        },
+        "atr4": {
+            "valor": 3.2
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "D6",
+        "nome": "Mini Cooper S",
+        "atr1": {
+            "valor": 230
+        },
+        "atr2": {
+            "valor": 192
+        },
+        "atr3": {
+            "valor": 1315
+        },
+        "atr4": {
+            "valor": 6.8
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "D7",
+        "nome": "Jaguar F-Type Roadster",
+        "atr1": {
+            "valor": 250
+        },
+        "atr2": {
+            "valor": 300
+        },
+        "atr3": {
+            "valor": 1571
+        },
+        "atr4": {
+            "valor": 5.7
+        },
+        "curiosidades": []
+        },
+        {
+        "id": "D8",
+        "nome": "Volksvagen Gol Quadrado",
+        "atr1": {
+            "valor": 170
+        },
+        "atr2": {
+            "valor": 95
+        },
+        "atr3": {
+            "valor": 950
+        },
+        "atr4": {
+            "valor": 18
+        },
+        "curiosidades": []
+        }
+    ]
 }
+
+}
+
+

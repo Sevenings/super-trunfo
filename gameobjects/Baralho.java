@@ -13,13 +13,27 @@ public class Baralho extends LinkedList<Carta> {
     public void carregar(String tema) throws ThemeNotFoundException {
         this.tema = tema;
         try {
-            JSONObject data_tema = readFromFile(temas_filepath).getJSONObject(tema);
-            JSONArray data_cartas = data_tema.getJSONArray("cartas");
-            for (int i = 0; i < data_cartas.length(); i++) {
-                JSONObject carta_json = data_cartas.getJSONObject(i);
+            JSONObject dados_do_tema = readFromFile(temas_filepath).getJSONObject(tema);
+            JSONArray dados_lista_de_cartas = dados_do_tema.getJSONArray("cartas");
+
+            for (int i = 0; i < dados_lista_de_cartas.length(); i++) {
+                JSONObject carta_json = dados_lista_de_cartas.getJSONObject(i);
+                for (int n_atributo = 1; n_atributo <= 4; n_atributo++) {
+                    String key_do_atributo = "atr" + n_atributo;
+                    JSONObject dados_atributo_n = dados_do_tema.getJSONObject(key_do_atributo);
+
+                    String nome_do_atributo_n = dados_atributo_n.getString("nome");
+                    carta_json.getJSONObject(key_do_atributo).put("nome", nome_do_atributo_n);
+
+                    String unidade_do_atributo_n = dados_atributo_n.getString("unidade");
+                    carta_json.getJSONObject(key_do_atributo).put("unidade", unidade_do_atributo_n);
+                }
+                
                 this.add(new Carta(carta_json));
             } 
+
         } catch (JSONException e) {
+            e.printStackTrace();
             throw new ThemeNotFoundException("Falha ao buscar o tema " + tema + " no arquivo " + temas_filepath);
         }
     }
