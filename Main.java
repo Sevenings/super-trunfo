@@ -1,4 +1,5 @@
 import gameobjects.*;
+import jogador.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +10,8 @@ public class Main {
             tnfe.printStackTrace();
         }
 
-        super_trunfo.listarCartas();
-
+        JogadorHumano player = new JogadorHumano("Luffy");
+        player.receberCarta(super_trunfo.pegarDoTopo());
+        player.escolheAtributo();
     }
 }

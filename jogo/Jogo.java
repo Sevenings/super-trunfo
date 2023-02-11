@@ -49,4 +49,8 @@ public class Jogo {
         }
     }
 
+    protected void setVencedor(Jogador jogador) {
+        this.vencedor = jogador;
+    }
+
 }

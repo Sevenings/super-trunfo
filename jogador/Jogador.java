@@ -3,10 +3,9 @@ package jogador;
 import java.lang.Comparable;
 import gameobjects.*;
 
-public abstract class Jogador implements Comparable<Jogador> {
+public abstract class Jogador {
     private String nome;
     private Baralho monte = new Baralho();
-    private Carta cartaNaMao;
     private Atributo atributoEscolhido;
     
     public Jogador(String nome) {
@@ -21,6 +20,10 @@ public abstract class Jogador implements Comparable<Jogador> {
         return this.monte.pollFirst();
     }
 
+    public void colocarNoMonte(Carta carta) {
+        this.monte.addLast(carta);
+    }
+
     public Baralho getMonte() {
         return this.monte;
     }
@@ -29,6 +32,10 @@ public abstract class Jogador implements Comparable<Jogador> {
         return this.getMonte().size();
     }
 
-    public abstract String escolheAtributo();
+    public Carta getCartaDaMao() {
+        return this.monte.getFirst();
+    }
+
+    public abstract Atributo escolheAtributo();
 
 }
