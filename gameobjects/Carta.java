@@ -42,4 +42,20 @@ public class Carta {
         
         return output;
     }
+
+    public String getNome() {
+        return this.nome;
+    }
+
+    public String getId() {
+        return this.id;
+    }
+
+    public List<Atributo> getListaAtributos() {
+        return atributos;
+    }
+
+    public Atributo getAtributo(int n) {
+        return atributos.get(n);
+    }
 }
