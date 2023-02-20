@@ -42,13 +42,13 @@ public class Baralho extends LinkedList<Carta> {
         Collections.shuffle(this);
     }
 
-    public void distribuir(Jogador[] jogadores) {
+    public void distribuir(List<Jogador> jogadores) {
         Iterator<Carta> iterator = this.iterator();
-        int n_jogadores = jogadores.length;
+        int n_jogadores = jogadores.size();
 
         int i = 0;
         while (iterator.hasNext()) {
-            jogadores[i % n_jogadores].receberCarta(this.pegarDoTopo());
+            jogadores.get(i % n_jogadores).receberCarta(this.pegarDoTopo());
             i++;
         }
     }

@@ -20,10 +20,6 @@ public abstract class Jogador {
         return this.monte.pollFirst();
     }
 
-    public void colocarNoMonte(Carta carta) {
-        this.monte.addLast(carta);
-    }
-
     public Baralho getMonte() {
         return this.monte;
     }
@@ -34,6 +30,20 @@ public abstract class Jogador {
 
     public Carta getCartaDaMao() {
         return this.monte.getFirst();
+    }
+
+    public Atributo getAtributoEquivalente(Atributo atributoBase) {
+        Carta cartaDaMao = this.getCartaDaMao();
+        for (Atributo atributo : cartaDaMao.getListaAtributos()) {
+            if (atributo.getNome().equals(atributoBase.getNome())) {
+                return atributo;
+            }
+        }
+        return null;
+    }
+
+    public String getNome() {
+        return this.nome;
     }
 
     public abstract Atributo escolheAtributo();

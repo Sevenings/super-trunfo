@@ -1,18 +1,20 @@
 import gameobjects.*;
 import jogador.*;
+import jogo.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Baralho super_trunfo = new Baralho();
-        try {
-            super_trunfo.carregar("pokemon");
-        } catch (ThemeNotFoundException tnfe) {
-            tnfe.printStackTrace();
-        }
+        String tema = "carros";
 
         JogadorHumano player = new JogadorHumano("Luffy");
-        player.receberCarta(super_trunfo.pegarDoTopo());
-        Atributo atributo_escolhido = player.escolheAtributo();
-        System.out.println(atributo_escolhido.toString());
+        Bot robo = new Bot("Senku-300");
+
+        List<Jogador> jogadores = new ArrayList();
+        jogadores.add(player);
+        jogadores.add(robo);
+
+        Jogo jogo = new Jogo(jogadores, tema);
+        jogo.play();
     }
 }
