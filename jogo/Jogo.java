@@ -10,6 +10,7 @@ public class Jogo {
     private Jogador vencedor = null;
     private int total_de_cartas;
     private Baralho baralho = new Baralho();
+    private int delay = 500;
 
     public Jogo(List<Jogador> jogadores, String tema) {
         this.jogadores = jogadores;
@@ -38,6 +39,8 @@ public class Jogo {
         Jogador escolhido = jogadores.get(roleta.nextInt(n_jogadores));
         this.vez = escolhido;
         System.out.println(this.vez.getNome() + " começa!");
+        System.out.println("------------------");
+        delay();
     }
 
     protected void prepararJogo() {
@@ -63,10 +66,26 @@ public class Jogo {
         venceu.receberCarta(perdeu.pegaDoMonte()); // Coloca a carta do oponente no fim do baralho
     }
 
+    private void delay() {
+        try {
+            Thread.sleep(delay);
+        } catch (InterruptedException ie) {
+            ie.printStackTrace();
+        }
+    }
+
     protected void gameLoop() {
         for (;vencedor == null; verificarVencedor()) {
+            for (Jogador jogador : jogadores) {
+                System.out.println("Cartas no baralho de " + jogador.getNome() + ": " + jogador.quantasCartasNaMao());
+            }
+            System.out.println("------------------");
+            delay();
+
             // O Jogador da Vez escolhe o Atributo
             Atributo atributo_escolhido = vez.escolheAtributo();
+            System.out.println(vez.getNome() + " escolheu: " + atributo_escolhido.getNome());
+            delay();
 
             // Pega o atributo correspondente de todos os jogadores
             Atributo atr1 = jogadores.get(0).getAtributoEquivalente(atributo_escolhido);
@@ -76,6 +95,7 @@ public class Jogo {
             System.out.println(atr1.toString());
             System.out.println(atr2.toString());
 
+            System.out.println(atr1.compareTo(atr2));
             if (atr1.compareTo(atr2) > 1) {
                 ganhaRodada(jogadores.get(0), jogadores.get(1));
             } else if (atr2.compareTo(atr1) > 1) {

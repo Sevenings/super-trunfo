@@ -27,6 +27,9 @@ public class Baralho extends LinkedList<Carta> {
 
                     String unidade_do_atributo_n = dados_atributo_n.getString("unidade");
                     carta_json.getJSONObject(key_do_atributo).put("unidade", unidade_do_atributo_n);
+
+                    boolean maiorMelhor_do_atributo_n = dados_atributo_n.getBoolean("maiorMelhor");
+                    carta_json.getJSONObject(key_do_atributo).put("maiorMelhor", maiorMelhor_do_atributo_n);
                 }
                 
                 this.add(new Carta(carta_json));

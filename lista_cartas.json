@@ -794,19 +794,23 @@
 "carros": {    
     "atr1": {
         "nome": "Velocidade",
-        "unidade": "Km/h"
+        "unidade": "Km/h",
+        "maiorMelhor": true
     },
     "atr2": {
         "nome": "Potência",
-        "unidade": "cv"
+        "unidade": "cv",
+        "maiorMelhor": true
     },
     "atr3": {
         "nome": "Peso",
-        "unidade": "Kg"
+        "unidade": "Kg",
+        "maiorMelhor": false
     },
     "atr4": {
         "nome": "0-100 km/h",
-        "unidade": "s"
+        "unidade": "s",
+        "maiorMelhor": false
     },
     "cartas": [
         {
