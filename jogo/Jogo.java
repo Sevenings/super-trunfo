@@ -2,7 +2,7 @@ package jogo;
 
 import java.util.*;
 import jogador.*;
-import gameobjects.Baralho;
+import gameobjects.*;
 
 public class Jogo {
     private List<Jogador> jogadores;
@@ -45,7 +45,8 @@ public class Jogo {
 
     protected void gameLoop() {
         for (;vencedor == null; verificarVencedor()) {
-           // Colocar o corpo do jogo  
+            // Colocar o corpo do jogo  
+            Atributo atributo_escolhido = vez.escolheAtributo();
         }
     }
 

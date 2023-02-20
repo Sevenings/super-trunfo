@@ -793,7 +793,7 @@
     },
 "carros": {    
     "atr1": {
-        "nome": "velocidade",
+        "nome": "Velocidade",
         "unidade": "Km/h"
     },
     "atr2": {

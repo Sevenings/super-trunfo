@@ -1,14 +1,22 @@
 package menu;
 
+import java.util.*;
+
 public abstract class Option {
     protected Object content;
     protected String nome;
     protected Menu upper;
+    protected List<String> keywords = new ArrayList<String>();
+
 
     public abstract Object select(Menu selector_menu); 
 
     public String getNome() {
         return this.nome;
+    }
+
+    public List<String> getKeywords() {
+        return this.keywords;
     }
  
 /*

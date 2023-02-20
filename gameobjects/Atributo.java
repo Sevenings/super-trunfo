@@ -39,5 +39,9 @@ public class Atributo implements Comparable<Atributo> {
         return this.valor;
     }
 
+    public String getNome() {
+        return this.nome;
+    }
+
     //public String toString();
 }

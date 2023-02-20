@@ -28,6 +28,7 @@ public class ChatMenu extends Menu {
 
     @Override
     public Object open() { //Abre o próprio menu, apresentando as opções e perguntando qual o usuário deseja
+        System.out.println(this.nome);
         list();
         Option selectedOption = askOption();
         if (selectedOption instanceof Menu) {
@@ -44,8 +45,9 @@ public class ChatMenu extends Menu {
     }
 
     private void list() { //Lista todas as Optionts
+        int i = 1;
         for (Option option : options) {
-            System.out.println(option.getNome());
+            System.out.println("(" + i + ") " + option.getNome()); i++;
         }
         if (opçãoDeVoltar != null)
             System.out.println(opçãoDeVoltar.getNome());
@@ -57,10 +59,12 @@ public class ChatMenu extends Menu {
         while (selectedOption == null) {
             System.out.println("Digite sua escolha: ");
             String name_selected_option = scanner.nextLine();
-            for (Option option : options) {
-                if (option.getNome().equals(name_selected_option)) {
-                    selectedOption = option;
-                    break;
+            for (Option option : options) { //Para cada opção
+                for (String keyword : option.getKeywords()) {   //Procura em cada keyword
+                    if (name_selected_option.equals(keyword)) { //Se o digitado corresponde à keyword
+                        selectedOption = option;
+                        break;
+                    }
                 }
             }
             if (opçãoDeVoltar != null) {

@@ -3,6 +3,7 @@ package jogador;
 import gameobjects.*;
 import menu.*;
 import menu.chatmenu.*;
+import java.util.*;
 
 public class JogadorHumano extends Jogador {
     public JogadorHumano(String nome) {
@@ -13,8 +14,12 @@ public class JogadorHumano extends Jogador {
     public Atributo escolheAtributo() {
         Carta cartaDaMao = getCartaDaMao();
         Menu menu = new ChatMenu(cartaDaMao.getNome());
+        int i = 1;
         for (Atributo atributo : cartaDaMao.getListaAtributos()) {
-            menu.add(new ChatMenuOption(atributo.toString(), atributo));
+            List<String> keywords = new ArrayList<String>();
+            keywords.add(atributo.getNome());
+            keywords.add(Integer.toString(i)); i++;
+            menu.add(new ChatMenuOption(atributo.toString(), atributo, keywords));
         }
         return (Atributo) menu.open();
     }
