@@ -6,18 +6,10 @@ import musica.*;
 
 public class Main {
     public static void main(String[] args) {
-        String tema = "carros";
-
-        //Musicao.RunMusic("musica/btr.wav");
-
         JogadorHumano player = new JogadorHumano("Luffy");
-        Bot robo = new Bot("Senku-300");
+        Bot robo = new Bot("Senku-300 (BOT)");
 
-        ArrayList<Jogador> jogadores = new ArrayList();
-        jogadores.add(player);
-        jogadores.add(robo);
-
-        Jogo jogo = new Jogo(jogadores);
+        Jogo jogo = new Jogo();
         MenuInicial menu = new MenuInicial(jogo);
         menu.open();
     }

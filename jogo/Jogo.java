@@ -7,20 +7,17 @@ import prettyprint.PrettyPrint;
 
 public class Jogo {
     private String tema;
-    private ArrayList<Jogador> jogadores;
+    private ArrayList<Jogador> jogadores = new ArrayList<Jogador>();
     private Jogador vez;
     private Jogador vencedor = null;
     private int total_de_cartas;
     private Baralho baralho = new Baralho();
     private int delay = 500;
 
-    public Jogo(ArrayList<Jogador> jogadores) {
-        this.jogadores = jogadores;
-    }
-
-    public Jogador play() {
-        escolherQuemComeca(jogadores);
+    public Jogador play() throws ThemeNotFoundException {
+        MenuInicial.limparTela();
         prepararJogo();
+        escolherQuemComeca(jogadores);
         gameLoop();
         return vencedor;
     }
@@ -33,12 +30,32 @@ public class Jogo {
         // vencedor do jogo.
         Random roleta = new Random();
         int n_jogadores = jogadores.size();
-        Jogador escolhido = jogadores.get(roleta.nextInt(n_jogadores));
+        int index_jogador_escolhido = roleta.nextInt(n_jogadores);
+        Jogador escolhido = jogadores.get(index_jogador_escolhido);
         this.vez = escolhido;
-        timedPrint(this.vez.getNome() + " começa!", 2);
+        animaçãoEscolher(index_jogador_escolhido);
     }
 
-    protected void prepararJogo() {
+    protected void animaçãoEscolher(int index_jogador_escolhido) {
+        timedPrint("Vamos escolher quem começa!", 4);
+        String seta;
+        int n_de_oscilações = 40; //Precisa ser Par
+        for (int i = 0; i < n_de_oscilações + index_jogador_escolhido; i++) {
+            MenuInicial.limparTela();
+            if (i%2 == 1) {
+                seta = "<--";
+            } else {
+                seta = "-->";
+            }
+            String text = jogadores.get(0).getNome() + " " + seta + " " +  jogadores.get(1).getNome();
+            System.out.println(text);
+            PrettyPrint.delay(4*(i+1)^2);
+        }
+
+        timedPrint(this.vez.getNome() + " começa!", 4);
+    }
+
+    protected void prepararJogo() throws ThemeNotFoundException {
         carregarTema();
         // Distribuir as cartas
         vencedor = null;
@@ -46,11 +63,11 @@ public class Jogo {
         baralho.distribuir(jogadores);
     }
 
-    private void carregarTema() {
+    private void carregarTema() throws ThemeNotFoundException {
         try {
             baralho.carregar(tema);
         } catch (ThemeNotFoundException tnfe) {
-            tnfe.printStackTrace();
+            throw tnfe;
         }
     }
 
@@ -89,12 +106,12 @@ public class Jogo {
 
     protected void gameLoop() {
         for (; vencedor == null; verificarVencedor()) {
-            PrettyPrint.limparTela();
+            MenuInicial.limparTela();
             for (Jogador jogador : jogadores) {
-                timedPrint("Cartas no baralho de " + jogador.getNome() + ": " + jogador.quantasCartasNaMao());
+                System.out.println("Cartas no baralho de " + jogador.getNome() + ": " + jogador.quantasCartasNaMao());
             }
 
-            delay();
+            delay(2);
 
             timedPrint(vez.getNome() + " vai escolher um atributo");
             Atributo atributo_escolhido = vez.escolheAtributo();    // O Jogador da Vez escolhe o Atributo 
@@ -119,8 +136,6 @@ public class Jogo {
             } else {
                 calculoAtributosSemTrunfo(atr1, atr2);
             }
-
-            timedPrint("------------");
         }
     }
 
@@ -169,4 +184,9 @@ public class Jogo {
     public String getTema() {
         return tema;
     }
+
+    public void addJogador(Jogador jogador) {
+        jogadores.add(jogador);
+    }
+
 }

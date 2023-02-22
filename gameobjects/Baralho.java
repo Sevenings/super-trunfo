@@ -36,7 +36,6 @@ public class Baralho extends LinkedList<Carta> {
             } 
 
         } catch (JSONException e) {
-            e.printStackTrace();
             throw new ThemeNotFoundException("Falha ao buscar o tema " + tema + " no arquivo " + temas_filepath);
         }
     }
