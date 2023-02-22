@@ -13,6 +13,7 @@ import menu.Command;
 import org.json.*;
 import gameobjects.Baralho;
 import java.util.*;
+import prettyprint.PrettyPrint;
 
 public class MenuInicial {
     private Jogo jogo;
@@ -23,8 +24,9 @@ public class MenuInicial {
     }
 
     public void open() {
-        mostrarTitulo();
         while (on) {
+            PrettyPrint.limparTela();
+            mostrarTitulo();
             Command selecionado = abrirMenuDeOpções();
             selecionado.action(new Object[0]);
         }
@@ -32,7 +34,7 @@ public class MenuInicial {
 
     protected void mostrarTitulo() {
         String titulo = "  ████████\n ███░░░░░███\n░███    ░░░  █████ ████ ████████   ██████  ████████\n░░█████████ ░░███ ░███ ░░███░░███ ███░░███░░███░░███\n ░░░░░░░░███ ░███ ░███  ░███ ░███░███████  ░███ ░░░\n ███    ░███ ░███ ░███  ░███ ░███░███░░░   ░███\n░░█████████  ░░████████ ░███████ ░░██████  █████\n ░░░░░░░░░    ░░░░░░░░  ░███░░░   ░░░░░░  ░░░░░\n                        ░███\n                        █████\n                       ░░░░░\n                ███████████                                    ██████\n               ░█░░░███░░░█                                   ███░░███\n               ░   ░███  ░  ████████  █████ ████ ████████    ░███ ░░░   ██████\n                   ░███    ░░███░░███░░███ ░███ ░░███░░███  ███████    ███░░███\n                   ░███     ░███ ░░░  ░███ ░███  ░███ ░███ ░░░███░    ░███ ░███\n                   ░███     ░███      ░███ ░███  ░███ ░███   ░███     ░███ ░███\n                   █████    █████     ░░████████ ████ █████  █████    ░░██████\n                  ░░░░░    ░░░░░       ░░░░░░░░ ░░░░ ░░░░░  ░░░░░      ░░░░░░\n";
-        System.out.println(titulo);
+        PrettyPrint.efeitoMaquinaDeEscrever(titulo, 1);
     }
 
     protected Command abrirMenuDeOpções() {

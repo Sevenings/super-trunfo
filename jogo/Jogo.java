@@ -3,6 +3,7 @@ package jogo;
 import java.util.*;
 import jogador.*;
 import gameobjects.*;
+import prettyprint.PrettyPrint;
 
 public class Jogo {
     private String tema;
@@ -71,11 +72,7 @@ public class Jogo {
     }
 
     private void delay(double multiplier) {
-        try {
-            Thread.sleep((int)(delay*multiplier));
-        } catch (InterruptedException ie) {
-            ie.printStackTrace();
-        }
+        PrettyPrint.delay((int) (delay*multiplier));
     }
 
     private void delay() {
@@ -83,8 +80,7 @@ public class Jogo {
     }
 
     private void timedPrint(String string, double multiplier) {
-        System.out.println(string);
-        delay(multiplier);
+        PrettyPrint.timedPrint(string, (int) (delay*multiplier));
     }
 
     private void timedPrint(String string) {
@@ -93,6 +89,7 @@ public class Jogo {
 
     protected void gameLoop() {
         for (; vencedor == null; verificarVencedor()) {
+            PrettyPrint.limparTela();
             for (Jogador jogador : jogadores) {
                 timedPrint("Cartas no baralho de " + jogador.getNome() + ": " + jogador.quantasCartasNaMao());
             }
