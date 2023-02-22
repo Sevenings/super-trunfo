@@ -816,6 +816,7 @@
         {
         "id": "A1",
         "nome": "Nissan Skyline GT-R R34",
+        "trunfo": false,
         "atr1": {
             "valor": 320
         },
@@ -833,6 +834,7 @@
         {
         "id": "A2",
         "nome": "Toyota Supra MKIV",
+        "trunfo": false,
         "atr1": {
             "valor": 320
         },
@@ -850,6 +852,7 @@
         {
         "id": "A3",
         "nome": "Mazda RX7",
+        "trunfo": false,
         "atr1": {
             "valor": 256
         },
@@ -867,6 +870,7 @@
         {
         "id": "A4",
         "nome": "Lancer Evolution Evo VIII",
+        "trunfo": false,
         "atr1": {
             "valor": 256
         },
@@ -884,6 +888,7 @@
         {
         "id": "A5",
         "nome": "Toyota MR2",
+        "trunfo": false,
         "atr1": {
             "valor": 253
         },
@@ -901,6 +906,7 @@
         {
         "id": "A6",
         "nome": "Subaru Impreza",
+        "trunfo": false,
         "atr1": {
             "valor": 247
         },
@@ -918,6 +924,7 @@
         {
         "id": "A7",
         "nome": "Maserati Quattroporte GTS",
+        "trunfo": false,
         "atr1": {
             "valor": 310
         },
@@ -935,6 +942,7 @@
         {
         "id": "A8",
         "nome": "Mercedes SLS AMG",
+        "trunfo": false,
         "atr1": {
             "valor": 317
         },
@@ -952,6 +960,7 @@
         {
         "id": "B1",
         "nome": "Ferrari 458 Italia",
+        "trunfo": false,
         "atr1": {
             "valor": 325
         },
@@ -969,6 +978,7 @@
         {
         "id": "B2",
         "nome": "Uno da Firma",
+        "trunfo": true,
         "atr1": {
             "valor": 151
         },
@@ -986,6 +996,7 @@
         {
         "id": "B3",
         "nome": "Chevrolet Corvette C7 Stingray",
+        "trunfo": false,
         "atr1": {
             "valor": 290
         },
@@ -1003,6 +1014,7 @@
         {
         "id": "B4",
         "nome": "Honda Fit",
+        "trunfo": false,
         "atr1": {
             "valor": 204
         },
@@ -1020,6 +1032,7 @@
         {
         "id": "B5",
         "nome": "Volksvagen Fusca",
+        "trunfo": false,
         "atr1": {
             "valor": 127
         },
@@ -1037,6 +1050,7 @@
         {
         "id": "B6",
         "nome": "Batmóvel",
+        "trunfo": false,
         "atr1": {
             "valor": 500
         },
@@ -1054,6 +1068,7 @@
         {
         "id": "B7",
         "nome": "Mitsubishi Eclipse",
+        "trunfo": false,
         "atr1": {
             "valor": 224
         },
@@ -1071,6 +1086,7 @@
         {
         "id": "B8",
         "nome": "Audi R8",
+        "trunfo": false,
         "atr1": {
             "valor": 317
         },
@@ -1088,6 +1104,7 @@
         {
         "id": "C1",
         "nome": "BMW Z4",
+        "trunfo": false,
         "atr1": {
             "valor": 250
         },
@@ -1105,6 +1122,7 @@
         {
         "id": "C2",
         "nome": "Honda Civic Type R",
+        "trunfo": false,
         "atr1": {
             "valor": 241
         },
@@ -1122,6 +1140,7 @@
         {
         "id": "C3",
         "nome": "Pagani Zonda R",
+        "trunfo": false,
         "atr1": {
             "valor": 350
         },
@@ -1139,6 +1158,7 @@
         {
         "id": "C4",
         "nome": "Lamborghini Aventador",
+        "trunfo": false,
         "atr1": {
             "valor": 350
         },
@@ -1156,6 +1176,7 @@
         {
         "id": "C5",
         "nome": "Toyota Corolla",
+        "trunfo": false,
         "atr1": {
             "valor": 205
         },
@@ -1173,6 +1194,7 @@
         {
         "id": "C6",
         "nome": "Chevrolet Corsa",
+        "trunfo": false,
         "atr1": {
             "valor": 180
         },
@@ -1190,6 +1212,7 @@
         {
         "id": "C7",
         "nome": "Volksvagen Jetta",
+        "trunfo": false,
         "atr1": {
             "valor": 202
         },
@@ -1207,6 +1230,7 @@
         {
         "id": "C8",
         "nome": "Chevrolet Camaro Amarelo",
+        "trunfo": false,
         "atr1": {
             "valor": 250
         },
@@ -1224,6 +1248,7 @@
         {
         "id": "D1",
         "nome": "Fiat Fiorino",
+        "trunfo": false,
         "atr1": {
             "valor": 158
         },
@@ -1241,6 +1266,7 @@
         {
         "id": "D2",
         "nome": "Dodge Charger",
+        "trunfo": false,
         "atr1": {
             "valor": 328
         },
@@ -1258,6 +1284,7 @@
         {
         "id": "D3",
         "nome": "Chevrolet Chevette",
+        "trunfo": false,
         "atr1": {
             "valor": 160
         },
@@ -1275,6 +1302,7 @@
         {
         "id": "D4",
         "nome": "Ford Maverick",
+        "trunfo": false,
         "atr1": {
             "valor": 158
         },
@@ -1292,6 +1320,7 @@
         {
         "id": "D5",
         "nome": "Porsche 911 GT3 RS",
+        "trunfo": false,
         "atr1": {
             "valor": 296
         },
@@ -1309,6 +1338,7 @@
         {
         "id": "D6",
         "nome": "Mini Cooper S",
+        "trunfo": false,
         "atr1": {
             "valor": 230
         },
@@ -1326,6 +1356,7 @@
         {
         "id": "D7",
         "nome": "Jaguar F-Type Roadster",
+        "trunfo": false,
         "atr1": {
             "valor": 250
         },
@@ -1343,6 +1374,7 @@
         {
         "id": "D8",
         "nome": "Volksvagen Gol Quadrado",
+        "trunfo": false,
         "atr1": {
             "valor": 170
         },

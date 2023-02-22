@@ -13,7 +13,7 @@ public class JogadorHumano extends Jogador {
     @Override
     public Atributo escolheAtributo() {
         Carta cartaDaMao = getCartaDaMao();
-        Menu menu = new ChatMenu(cartaDaMao.getNome());
+        Menu menu = new ChatMenu(cartaDaMao.getTitulo());
         int i = 1;
         for (Atributo atributo : cartaDaMao.getListaAtributos()) {
             List<String> keywords = new ArrayList<String>();

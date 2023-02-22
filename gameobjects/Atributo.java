@@ -29,10 +29,11 @@ public class Atributo implements Comparable<Atributo> {
     }
 
     public int compareTo(Atributo atributo) {
-        int value = (int) (this.getValor() - atributo.getValor());
+        double value = (this.getValor() - atributo.getValor());
         if (!maiorMelhor)
             value *= -1;
-        return value;
+        if (value > 0) return 1;
+        return -1;
     }
 
     public double getValor() {

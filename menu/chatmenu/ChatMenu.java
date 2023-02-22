@@ -19,6 +19,7 @@ public class ChatMenu extends Menu {
 
     public ChatMenu(String nome) {
         this.nome = nome;
+        this.keywords.add(this.nome);
     }
 
     public ChatMenu(String nome, List<Option> options) {

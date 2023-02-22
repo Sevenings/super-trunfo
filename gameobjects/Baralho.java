@@ -8,7 +8,7 @@ import jogador.*;
 
 public class Baralho extends LinkedList<Carta> {
     private String tema;
-    private String temas_filepath = "lista_cartas.json";
+    private static String temas_filepath = "lista_cartas.json";
 
     public void carregar(String tema) throws ThemeNotFoundException {
         this.tema = tema;
@@ -66,7 +66,7 @@ public class Baralho extends LinkedList<Carta> {
         return this.pop();
     }    
 
-    private JSONObject readFromFile(String pathName) {
+    public static JSONObject readFromFile(String pathName) {
 		JSONObject json = null;
 		
         try {
@@ -91,4 +91,8 @@ public class Baralho extends LinkedList<Carta> {
         
         return json;
 	}
+
+    public static String getCartasFile() {
+        return Baralho.temas_filepath;
+    }
 }

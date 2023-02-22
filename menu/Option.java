@@ -8,7 +8,6 @@ public abstract class Option {
     protected Menu upper;
     protected List<String> keywords = new ArrayList<String>();
 
-
     public abstract Object select(Menu selector_menu); 
 
     public String getNome() {
@@ -17,6 +16,10 @@ public abstract class Option {
 
     public List<String> getKeywords() {
         return this.keywords;
+    }
+
+    public void addKeyword(String keyword) {
+        keywords.add(keyword);
     }
  
 /*

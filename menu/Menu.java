@@ -20,5 +20,8 @@ public abstract class Menu extends Option {
     public void add(Option opção) {
         options.add(opção);
         opção.setUpper(this);
+
+        String index_keyword = Integer.toString(options.indexOf(opção)+1);
+        opção.addKeyword(index_keyword);
     }
 }
