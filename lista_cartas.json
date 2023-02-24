@@ -1,5 +1,5 @@
 {
-"pokemon": {
+"Pokémon": {
     "atr1": {
         "nome": "Peso",
         "unidade": "kg",
@@ -599,7 +599,7 @@
         }
         ]
     },
-"carros": {    
+"Carros": {    
     "atr1": {
         "nome": "Velocidade",
         "unidade": "Km/h",
@@ -637,7 +637,7 @@
         "atr4": {
             "valor": 3.2
         },
-        "curiosidades": []
+        "curiosidades": ["Equipado com o lendário motor RB26"]
         },
         {
         "id": "A2",
@@ -655,7 +655,7 @@
         "atr4": {
             "valor": 3.6
         },
-        "curiosidades": []
+        "curiosidades": ["Equipado com o lendário motor 2JZ"]
         },
         {
         "id": "A3",
@@ -673,7 +673,7 @@
         "atr4": {
             "valor": 5.3
         },
-        "curiosidades": []
+        "curiosidades": ["Muito famoso na comunidade unerground de Carros"]
         },
         {
         "id": "A4",
@@ -691,7 +691,7 @@
         "atr4": {
             "valor": 4.8 
         },
-        "curiosidades": []
+        "curiosidades": ["Nome inspirado pelo lendário Lancelot"]
         },
         {
         "id": "A5",
@@ -709,7 +709,7 @@
         "atr4": {
             "valor": 5.6 
         },
-        "curiosidades": []
+        "curiosidades": ["Conhecido como a Ferrari Japonesa", "Uma Ferrari mais barata"]
         },
         {
         "id": "A6",
@@ -727,7 +727,7 @@
         "atr4": {
             "valor": 4.6 
         },
-        "curiosidades": []
+        "curiosidades": ["Famoso por ter estampado principalmente as cores azul e branco"]
         },
         {
         "id": "A7",
@@ -745,7 +745,7 @@
         "atr4": {
             "valor": 4.7
         },
-        "curiosidades": []
+        "curiosidades": ["Como diz o nome, tem quatro portas"]
         },
         {
         "id": "A8",
@@ -763,7 +763,7 @@
         "atr4": {
             "valor": 3.8
         },
-        "curiosidades": []
+        "curiosidades": ["A mercedes mais prestigiada do século"]
         },
         {
         "id": "B1",
@@ -781,7 +781,7 @@
         "atr4": {
             "valor": 3.3
         },
-        "curiosidades": []
+        "curiosidades": ["Muito vermelha"]
         },
         {
         "id": "B2",
@@ -799,7 +799,7 @@
         "atr4": {
             "valor": 17.5
         },
-        "curiosidades": []
+        "curiosidades": ["Segundo as lendas urbanas, ao colocar uma escada no teto, e um adesivo da firma na porta, alcança os 500km/h na rodovia, dando pau em qualquer esportivinho por ai"]
         },
         {
         "id": "B3",
@@ -817,7 +817,7 @@
         "atr4": {
             "valor": 3.8
         },
-        "curiosidades": []
+        "curiosidades": ["+R = Cristiano Ronaldo"]
         },
         {
         "id": "B4",
@@ -835,7 +835,7 @@
         "atr4": {
             "valor": 7.4
         },
-        "curiosidades": []
+        "curiosidades": ["O carro é simples como o nome"]
         },
         {
         "id": "B5",
@@ -853,7 +853,7 @@
         "atr4": {
             "valor": 45
         },
-        "curiosidades": []
+        "curiosidades": ["O clássico brasileiro", "O formato mais aerodinâmico do mercado", "Todo avô já teve um"]
         },
         {
         "id": "B6",
@@ -871,7 +871,7 @@
         "atr4": {
             "valor": 4.1
         },
-        "curiosidades": []
+        "curiosidades": ["Igual o do filme"]
         },
         {
         "id": "B7",
@@ -889,7 +889,7 @@
         "atr4": {
             "valor": 6
         },
-        "curiosidades": []
+        "curiosidades": ["Famoso por aparecer no primeiro filme dos Velozes e Furiosos", "Carro do Brian"]
         },
         {
         "id": "B8",
@@ -907,7 +907,7 @@
         "atr4": {
             "valor": 3.5
         },
-        "curiosidades": []
+        "curiosidades": ["Carrão com audio, como diz o nome"]
         },
         {
         "id": "C1",
@@ -925,7 +925,7 @@
         "atr4": {
             "valor": 4.7
         },
-        "curiosidades": []
+        "curiosidades": ["Barato", "Conversivel mais famoso da BMW"]
         },
         {
         "id": "C2",
@@ -943,7 +943,7 @@
         "atr4": {
             "valor": 6.7
         },
-        "curiosidades": []
+        "curiosidades": ["Digite R no chat", "Rival direto do lancer evo"]
         },
         {
         "id": "C3",
@@ -961,7 +961,7 @@
         "atr4": {
             "valor": 2.7
         },
-        "curiosidades": []
+        "curiosidades": ["Nome inspirado no grande compositor violinista"]
         },
         {
         "id": "C4",
@@ -979,7 +979,7 @@
         "atr4": {
             "valor": 2.8
         },
-        "curiosidades": []
+        "curiosidades": ["Rival da Ferrari 458 Itália"]
         },
         {
         "id": "C5",
@@ -997,7 +997,7 @@
         "atr4": {
             "valor": 9.7
         },
-        "curiosidades": []
+        "curiosidades": ["Carro do tio Wagner"]
         },
         {
         "id": "C6",
@@ -1015,7 +1015,7 @@
         "atr4": {
             "valor": 12.3
         },
-        "curiosidades": []
+        "curiosidades": ["Inspiração da música Corsinha Amarelo do MC Champions", "https://www.youtube.com/watch?v=pw8zsnVqvKQ", "Assetto Corsa não tem esse nome atoa"]
         },
         {
         "id": "C7",
@@ -1033,7 +1033,7 @@
         "atr4": {
             "valor": 10
         },
-        "curiosidades": []
+        "curiosidades": ["Jettão"]
         },
         {
         "id": "C8",
@@ -1051,7 +1051,7 @@
         "atr4": {
             "valor": 4.2
         },
-        "curiosidades": []
+        "curiosidades": ["Agora eu fiquei doce doce doce doce...", "Agora eu fiquei doce, igual caramelo...", "...To tirando onda de camaro amarelo"]
         },
         {
         "id": "D1",
@@ -1069,7 +1069,7 @@
         "atr4": {
             "valor": 14.7
         },
-        "curiosidades": []
+        "curiosidades": ["Carro de entrega de qualquer mercadinho da sua cidade"]
         },
         {
         "id": "D2",
@@ -1087,7 +1087,7 @@
         "atr4": {
             "valor": 3.8
         },
-        "curiosidades": []
+        "curiosidades": ["Um toque de brutalidade americana"]
         },
         {
         "id": "D3",
@@ -1105,7 +1105,7 @@
         "atr4": {
             "valor": 15
         },
-        "curiosidades": []
+        "curiosidades": ["Chevetinho da galera", "Rei do Drift BR"]
         },
         {
         "id": "D4",
@@ -1123,7 +1123,7 @@
         "atr4": {
             "valor": 11.7
         },
-        "curiosidades": []
+        "curiosidades": ["Bebe mais do que alcoolatra em final de semana"]
         },
         {
         "id": "D5",
@@ -1141,7 +1141,7 @@
         "atr4": {
             "valor": 3.2
         },
-        "curiosidades": []
+        "curiosidades": ["Barato, bunito, aerodinâmico"]
         },
         {
         "id": "D6",
@@ -1159,7 +1159,7 @@
         "atr4": {
             "valor": 6.8
         },
-        "curiosidades": []
+        "curiosidades": ["Nota do beta tester: BROKEN", "Aparece no filme: 'Uma saída de Mestre'"]
         },
         {
         "id": "D7",
@@ -1177,7 +1177,7 @@
         "atr4": {
             "valor": 5.7
         },
-        "curiosidades": []
+        "curiosidades": ["Tigraao, MIAAAAU", "Uma besta da selva urbana", "Mia gatinho https://youtu.be/zEgDzYvC_-k?t=17"]
         },
         {
         "id": "D8",
@@ -1195,10 +1195,1210 @@
         "atr4": {
             "valor": 18
         },
-        "curiosidades": []
+        "curiosidades": ["Se não for turbão, não tem graça", "Deveria ter no minecraft"]
         }
     ]
-}
+	},
+"CPUs": {    
+    "atr1": {
+        "nome": "Clock",
+        "unidade": "Ghz",
+        "maiorMelhor": true
+    },
+    "atr2": {
+        "nome": "Preço no Lançamento",
+        "unidade": Dólares,
+        "maiorMelhor": false
+    },
+    "atr3": {
+        "nome": "Núcleos/Threads",
+        "unidade": null,
+        "maiorMelhor": true
+    },
+    "atr4": {
+        "nome": "Cache L3",
+        "unidade": "MBs",
+        "maiorMelhor": true
+    },
+    "cartas": [
+        {
+        "id": "A1",
+        "nome": "AMD EPYC 9654P",
+        "trunfo": false,
+        "atr1": {
+            "valor": 2.4 
+        },
+        "atr2": {
+            "valor": 10625
+        },
+        "atr3": {
+            "valor": 192
+        },
+        "atr4": {
+            "valor": 384
+        },
+        "curiosidades": ["Primeiro Processador com 96 núcleos reais"]
+        },
+        {
+        "id": "A2",
+        "nome": "Intel I9 13900K",
+        "trunfo": false,
+        "atr1": {
+            "valor": 5.4
+        },
+        "atr2": {
+            "valor": 589
+        },
+        "atr3": {
+            "valor": 32
+        },
+        "atr4": {
+            "valor": 36
+        },
+        "curiosidades": ["Processador que apresenta dois tipos de Núcleos(eficientes/performance)"]
+        },
+        {
+        "id": "A3",
+        "nome": "AMD Ryzen 7950X3D",
+        "trunfo": false,
+        "atr1": {
+            "valor": 5.7 
+        },
+        "atr2": {
+            "valor": 699 
+        },
+        "atr3": {
+            "valor": 32
+        },
+        "atr4": {
+            "valor": 128
+        },
+        "curiosidades": ["Processador com Memória Cache 3D(em camadas)"]
+        },
+        {
+        "id": "A4",
+        "nome": "Intel Xeon w9-3495x",
+        "trunfo": false,
+        "atr1": {
+            "valor": 1.9
+        },
+        "atr2": {
+            "valor": 5889
+        },
+        "atr3": {
+            "valor": 112
+        },
+        "atr4": {
+            "valor": 105 
+        },
+        "curiosidades": ["O Processador possui 112 Linhas de PCI-E 5.0"]
+        },
+        {
+        "id": "A5",
+        "nome": "AMD Ryzen 5 3600",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.6
+        },
+        "atr2": {
+            "valor": 199
+        },
+        "atr3": {
+            "valor": 12 
+        },
+        "atr4": {
+            "valor": 32 
+        },
+        "curiosidades": ["Verdadeiro Hit da AMD contra a Intel após anos com certa distância"]
+        },
+        {
+        "id": "A6",
+        "nome": "Apple M1 Ultra",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.2
+        },
+        "atr2": {
+            "valor": 3999
+        },
+        "atr3": {
+            "valor": 20
+        },
+        "atr4": {
+            "valor": 96
+        },
+        "curiosidades": ["Processador feito com a fusão de 2 M1 Max"]
+        },
+        {
+        "id": "A7",
+        "nome": "AMD Ryzen 7 5800X3D",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.4
+        },
+        "atr2": {
+            "valor": 449
+        },
+        "atr3": {
+            "valor": 16
+        },
+        "atr4": {
+            "valor": 96
+        },
+        "curiosidades": ["Primeiro processador com Cache divido em camadas(3D)"]
+        },
+        {
+        "id": "A8",
+        "nome": "AMD Ryzen 3 3300x",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.8
+        },
+        "atr2": {
+            "valor": 120
+        },
+        "atr3": {
+            "valor": 8
+        },
+        "atr4": {
+            "valor": 16
+        },
+        "curiosidades": ["Processador de Extremo Custo-benefício"]
+        },
+        {
+        "id": "B1",
+        "nome": "Apple M1",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.2
+        },
+        "atr2": {
+            "valor": 999
+        },
+        "atr3": {
+            "valor": 8
+        },
+        "atr4": {
+            "valor": 8
+        },
+        "curiosidades": ["Primeiro processador de computador baseado em 5nm, além de marcar a transição dos Macs de x86-64(Intel) para ARM(chips próprios da Apple)"]
+        },
+        {
+        "id": "B2",
+        "nome": "Intel I7-7700K",
+        "trunfo": false,
+        "atr1": {
+            "valor": 4.2
+        },
+        "atr2": {
+            "valor": 350
+        },
+        "atr3": {
+            "valor": 8
+        },
+        "atr4": {
+            "valor": 8
+        },
+        "curiosidades": ["Nada extraordinário, não é um processador ruim, mas feito durante época de estagnação no mercado"]
+        },
+        {
+        "id": "B3",
+        "nome": "Intel I7-8086K",
+        "trunfo": false,
+        "atr1": {
+            "valor": 4
+        },
+        "atr2": {
+            "valor": 425
+        },
+        "atr3": {
+            "valor": 12
+        },
+        "atr4": {
+            "valor": 12
+        },
+        "curiosidades": ["Processador comemorativo lançado em homenagem ao clássico 8086"]
+        },
+        {
+        "id": "B4",
+        "nome": "Intel I5-8400",
+        "trunfo": false,
+        "atr1": {
+            "valor": 2.8 
+        },
+        "atr2": {
+            "valor": 182
+        },
+        "atr3": {
+            "valor": 6 
+        },
+        "atr4": {
+            "valor": 9
+        },
+        "curiosidades": ["Um dos custo-benefício antes da AMD realmente dar um hit com Ryzen, incrível o que competição fornece no futuro"]
+        },
+        {
+        "id": "B5",
+        "nome": "IBM PowerPC G5",
+        "trunfo": false,
+        "atr1": {
+            "valor": 2.5
+        },
+        "atr2": {
+            "valor": 3299
+        },
+        "atr3": {
+            "valor": 2
+        },
+        "atr4": {
+            "valor": 2
+        },
+        "curiosidades": ["Fez parte do último Mac com PowerPC antes da transição para x86(com a Intel)"]
+        },
+        {
+        "id": "B6",
+        "nome": "Intel I7-4770k",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.5
+        },
+        "atr2": {
+            "valor": 350
+        },
+        "atr3": {
+            "valor": 8
+        },
+        "atr4": {
+            "valor": 8
+        },
+        "curiosidades": ["Lançado em 2013, se você ainda tem um desses, provavelmente sua vida com jogos continua bem jogável comparado a outros lançamentos da época"]
+        },
+        {
+        "id": "B7",
+        "nome": "AMD Ryzen 5 1600",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.2
+        },
+        "atr2": {
+            "valor": 219
+        },
+        "atr3": {
+            "valor": 12
+        },
+        "atr4": {
+            "valor": 16
+        },
+        "curiosidades": ["Re-entrada da AMD no mercado de CPUs em 2017 com algo novo(mid-range)"]
+        },
+        {
+        "id": "B8",
+        "nome": "Intel I3-12100",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.3
+        },
+        "atr2": {
+            "valor": 122
+        },
+        "atr3": {
+            "valor": 8
+        },
+        "atr4": {
+            "valor": 12
+        },
+        "curiosidades": ["Sendo 1 produto de extremo custo-benefício, só demonstra como a competição(AMD x Intel) é boa para o mercado"]
+        },
+        {
+        "id": "C1",
+        "nome": "Intel I3-7350k",
+        "trunfo": false,
+        "atr1": {
+            "valor": 4.2
+        },
+        "atr2": {
+            "valor": 179
+        },
+        "atr3": {
+            "valor": 4
+        },
+        "atr4": {
+            "valor": 12
+        },
+        "curiosidades": ["O único I3 com capacidade de overclock"]
+        },
+        {
+        "id": "C2",
+        "nome": "Intel I7-6700",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.4
+        },
+        "atr2": {
+            "valor": 312
+        },
+        "atr3": {
+            "valor": 8
+        },
+        "atr4": {
+            "valor": 8
+        },
+        "curiosidades": ["Primeira arquitetura da Intel com suporte DDR4, entretanto feito durante época de estagnação, apesar de bom, bem meh honestamente"]
+        },
+        {
+        "id": "C3",
+        "nome": "Intel I5-4670K",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.4 
+        },
+        "atr2": {
+            "valor": 243
+        },
+        "atr3": {
+            "valor": 4
+        },
+        "atr4": {
+            "valor": 6
+        },
+        "curiosidades": ["Litografia de 22nm com 1.4 milhões de transistores"]
+        },
+        {
+        "id": "C4",
+        "nome": "Intel Celeron G6900",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.4
+        },
+        "atr2": {
+            "valor": 60
+        },
+        "atr3": {
+            "valor": 2
+        },
+        "atr4": {
+            "valor": 4
+        },
+        "curiosidades": ["Processador que só faz o mínimo, lançado em 2022, 2 núcleos não é realmente tão bom quanto era à mais de 1 década atrás"]
+        },
+        {
+        "id": "C5",
+        "nome": "AMD Ryzen Threadripper PRO 5975WX",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.6
+        },
+        "atr2": {
+            "valor": 3299
+        },
+        "atr3": {
+            "valor": 64
+        },
+        "atr4": {
+            "valor": 128
+        },
+        "curiosidades": ["Apesar de ser um processador fantástico, AMD excluiu o mercado de workstation mais prosumer, ao lançar somente o PRO que comparado a linha sem PRO, é bem mais caro por algumas coisas que não fazem tanta diferença ao mercado HEDT mais leve"]
+        },
+        {
+        "id": "C6",
+        "nome": "Intel I5-3427U",
+        "trunfo": false,
+        "atr1": {
+            "valor": 1.8
+        },
+        "atr2": {
+            "valor": 600
+        },
+        "atr3": {
+            "valor": 4
+        },
+        "atr4": {
+            "valor": 3
+        },
+        "curiosidades": ["Processador de um laptop do meu amigo, acho engraçado o nome, o preço não faz tanto sentido por ser linha de laptop"]
+        },
+        {
+        "id": "C7",
+        "nome": "AMD Ryzen 7 4700G",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.6
+        },
+        "atr2": {
+            "valor": 310
+        },
+        "atr3": {
+            "valor": 16
+        },
+        "atr4": {
+            "valor": 8
+        },
+        "curiosidades": ["Eu odeio a linha 4000 dos Ryzen, apesar de teoricamente processadores médios, possui vários quirks que eu não suporto"]
+        },
+        {
+        "id": "C8",
+        "nome": "AMD FX-8350",
+        "trunfo": false,
+        "atr1": {
+            "valor": 4
+        },
+        "atr2": {
+            "valor": 199
+        },
+        "atr3": {
+            "valor": 8
+        },
+        "atr4": {
+            "valor": 8
+        },
+        "curiosidades": ["Apesar de teoricamente baratos, a arquitetura bulldozer não realmente possui 8 núcleos que nem no marketing, eram processadores mediocres no próprio lançamento, preço pelo menos decente"]
+        },
+        {
+        "id": "D1",
+        "nome": "Ryzen 3 2200G",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.5
+        },
+        "atr2": {
+            "valor": 99
+        },
+        "atr3": {
+            "valor": 4
+        },
+        "atr4": {
+            "valor": 4
+        },
+        "curiosidades": ["Um produto de seu tempo, esse processador envelheceu mal, não necessariamente merecia essa categoria, mas a esse ponto minha escolha de categoria está arbitrária"]
+        },
+        {
+        "id": "D2",
+        "nome": "AMD FX-9590",
+        "trunfo": false,
+        "atr1": {
+            "valor": 5
+        },
+        "atr2": {
+            "valor": 350
+        },
+        "atr3": {
+            "valor": 8
+        },
+        "atr4": {
+            "valor": 8
+        },
+        "curiosidades": ["Bem produto de seu tempo para AMD, mesmo assim nunca foi um processador bom, nada contra FX, só realmente não foi bom"]
+        },
+        {
+        "id": "D3",
+        "nome": "AMD FX-6300",
+        "trunfo": true,
+        "atr1": {
+            "valor": 3.5
+        },
+        "atr2": {
+            "valor": 132
+        },
+        "atr3": {
+            "valor": 6
+        },
+        "atr4": {
+            "valor": 8
+        },
+        "curiosidades": ["Antigo Processador do Co-Criador"]
+        },
+        {
+        "id": "D4",
+        "nome": "Intel Core I7-6950X",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.5
+        },
+        "atr2": {
+            "valor": 1699
+        },
+        "atr3": {
+            "valor": 20
+        },
+        "atr4": {
+            "valor": 25
+        },
+        "curiosidades": ["Apesar de não possuir fraquezas em sua época, o preço desse processador foi exorbitante"]
+        },
+        {
+        "id": "D5",
+        "nome": "Intel I3-5005u",
+        "trunfo": false,
+        "atr1": {
+            "valor": 2
+        },
+        "atr2": {
+            "valor": 275
+        },
+        "atr3": {
+            "valor": 4
+        },
+        "atr4": {
+            "valor": 3
+        },
+        "curiosidades": ["A geração 5000(Broadwell) não teve um lançamento próprio no mercado Desktop"]
+        },
+        {
+        "id": "D6",
+        "nome": "Intel Itanium 9015",
+        "trunfo": false,
+        "atr1": {
+            "valor": 1.4
+        },
+        "atr2": {
+            "valor": 1250
+        },
+        "atr3": {
+            "valor": 2
+        },
+        "atr4": {
+            "valor": 12
+        },
+        "curiosidades": ["Na tentativa de criar uma nova arquitetura, IA64, a Intel falhou, uma vez que o público gostou mais de x86-64 que a AMD havia criado, nesse caso um processador do segmento de servers"]
+        },
+        {
+        "id": "D7",
+        "nome": "Intel Pentium 4 HT 672",
+        "trunfo": false,
+        "atr1": {
+            "valor": 3.8
+        },
+        "atr2": {
+            "valor": 605
+        },
+        "atr3": {
+            "valor": 2
+        },
+        "atr4": {
+            "valor": 2
+        },
+        "curiosidades": ["Processador tão horrível que a Intel quebrou a lei diversas vezes por causa dele"]
+        },
+        {
+        "id": "D8",
+        "nome": "Intel 8086",
+        "trunfo": false,
+        "atr1": {
+            "valor": 0.01
+        },
+        "atr2": {
+            "valor": 350
+        },
+        "atr3": {
+            "valor": 1
+        },
+        "atr4": {
+            "valor": 0
+        },
+        "curiosidades": ["Apesar de ser basicamente a pior carta desse jogo, o 8086 marcou época e começou a arquitetura x86"]
+        }
+    ]
+	},
+"Episódios de Friends": {
+    "atr1": {
+        "nome": "Audiência(LançamentoEUA)",
+        "unidade": "Milhões",
+        "maiorMelhor": true
+    },
+    "atr2": {
+        "nome": "Nota IMDB",
+        "unidade": "Estrelas",
+        "maiorMelhor": true
+    },
+    "atr3": {
+        "nome": "Relevância para o casal Ross-Rachel",
+        "unidade": null,
+        "maiorMelhor": true
+    },
+    "atr4": {
+        "nome": "Gosto do Autor do Baralho",
+        "unidade": Septimus,
+        "maiorMelhor": true
+    },
+    "cartas": [
+        {
+        "id": "A1",
+        "nome": "S10E17 - O Último",
+        "trunfo": false,
+        "atr1": {
+            "valor": 52.5
+        },
+        "atr2": {
+            "valor": 9.6
+        },
+        "atr3": {
+            "valor": 100
+        },
+        "atr4": {
+            "valor": 75
+        },
+        "curiosidades": ["Fim do Show, com os amigos preparando para seguir seus capítulos da vida separados."]
+        },
+        {
+        "id": "A2",
+        "nome": "S5E14 - Aquele em que Todos Descobrem",
+        "trunfo": false,
+        "atr1": {
+            "valor": 27.7
+        },
+        "atr2": {
+            "valor": 9.7
+        },
+        "atr3": {
+            "valor": 16
+        },
+        "atr4": {
+            "valor": 80
+        },
+        "curiosidades": ["A Turma descobre do caso que Mônica e Chandler estão tendo."]
+        },
+        {
+        "id": "A3",
+        "nome": "S5E23 - Aquele em Vegas",
+        "trunfo": false,
+        "atr1": {
+            "valor": 25.9
+        },
+        "atr2": {
+            "valor": 9.0
+        },
+        "atr3": {
+            "valor": 98
+        },
+        "atr4": {
+            "valor": 78
+        },
+        "curiosidades": ["Muita coisa acontece nesse especial de episódio duplo, mas destaque para Ross e Rachel se casando em Vegas."]
+        },
+        {
+        "id": "A4",
+        "nome": "S01E24 - Aquele em que Rachel Descobre",
+        "trunfo": false,
+        "atr1": {
+            "valor": 31.3
+        },
+        "atr2": {
+            "valor": 8.8
+        },
+        "atr3": {
+            "valor": 95
+        },
+        "atr4": {
+            "valor": 84
+        },
+        "curiosidades": ["Rachel descobre que Ross a ama enquanto ele está na China, mas há uma surpresa que espera ela quando Rachel vai encontrar Ross no aeroporto."]
+        },
+        {
+        "id": "A5",
+        "nome": "S5E1 - Aquele Depois de Ross Dizer Rachel",
+        "trunfo": false,
+        "atr1": {
+            "valor": 31.1
+        },
+        "atr2": {
+            "valor": 8.8
+        },
+        "atr3": {
+            "valor": 92
+        },
+        "atr4": {
+            "valor": 82
+        },
+        "curiosidades": ["Em seu Casamento, Ross disse o nome de Rachel durante os votos em vez de Emily, dando um começo ruim a seu casamento."]
+        },
+        {
+        "id": "A6",
+        "nome": "S6E24 - Aquele da Proposta de Casamento",
+        "trunfo": false,
+        "atr1": {
+            "valor": 30.7
+        },
+        "atr2": {
+            "valor": 9.2
+        },
+        "atr3": {
+            "valor": 26
+        },
+        "atr4": {
+            "valor": 91
+        },
+        "curiosidades": ["Chandler tem seus planos de pedir Mônica em casamento frustados quando o ex-namorado de Mônica aparece, e tenta ganhar Mônica de volta após temer ter arruinado as coisas."]
+        },
+        {
+        "id": "A7",
+        "nome": "S7E24 - Aquele do Casamento da Monica e do Chandler",
+        "trunfo": false,
+        "atr1": {
+            "valor": 30.0
+        },
+        "atr2": {
+            "valor": 9.1
+        },
+        "atr3": {
+            "valor": 70
+        },
+        "atr4": {
+            "valor": 95
+        },
+        "curiosidades": ["Mônica e Chandler se casam, e alguém está escondendo uma grande surpresa."]
+        },
+        {
+        "id": "A8",
+        "nome": "S8E1 - Aquele Depois do Sim",
+        "trunfo": false,
+        "atr1": {
+            "valor": 31.7
+        },
+        "atr2": {
+            "valor": 8.6
+        },
+        "atr3": {
+            "valor": 70
+        },
+        "atr4": {
+            "valor": 84
+        },
+        "curiosidades": ["O casamento de Mônica e Chandler quase perde o destaque com a notícia de que alguém pode estar grávida."]
+        },
+        {
+        "id": "B1",
+        "nome": "S4E1 - Aquele com a Água-Viva",
+        "trunfo": false,
+        "atr1": {
+            "valor": 29.4
+        },
+        "atr2": {
+            "valor": 9.0
+        },
+        "atr3": {
+            "valor": 100
+        },
+        "atr4": {
+            "valor": 95
+        },
+        "curiosidades": ["Ross dorme enquanto lê a carta de 18 páginas de Rachel, e quando confrontado por ela, finge concordar com o escrito. Mônica é picada por uma água-viva e tem que tomar medidas drásticas."]
+        },
+        {
+        "id": "B2",
+        "nome": "S6E2 - Aquele em que Ross Abraça Rachel",
+        "trunfo": false,
+        "atr1": {
+            "valor": 22.9
+        },
+        "atr2": {
+            "valor": 8.1
+        },
+        "atr3": {
+            "valor": 89
+        },
+        "atr4": {
+            "valor": 80
+        },
+        "curiosidades": ["Phoebe descobre que Ross não anulou seu casamento com Rachel(em Vegas)."]
+        },
+        {
+        "id": "B3",
+        "nome": "S5E8 - Aquele com Todos os Dias de Ação de Graças",
+        "trunfo": true,
+        "atr1": {
+            "valor": 23.9
+        },
+        "atr2": {
+            "valor": 9.0
+        },
+        "atr3": {
+            "valor": 54
+        },
+        "atr4": {
+            "valor": 100
+        },
+        "curiosidades": ["A gangue lembra dos seus piores Dias de Ação de Graças."]
+        },
+        {
+        "id": "B4",
+        "nome": "S6E16 - Aquele que Poderia Ter Sido",
+        "trunfo": false,
+        "atr1": {
+            "valor": 20.7
+        },
+        "atr2": {
+            "valor": 8.4
+        },
+        "atr3": {
+            "valor": 0
+        },
+        "atr4": {
+            "valor": 73
+        },
+        "curiosidades": ["Nesse especial com duração dupla, a gangue imagina o que poderia ter sido se Ross tivesse continuado com sua esposa lésbica, uma Rachel casada tivesse uma paixonite na estrela de novela Joey, Mônica tivesse sido obssecada em perder sua virgindade, Chandler fosse um escritor com bloqueio e Phoebe trabalhasse no Wall Street."]
+        },
+        {
+        "id": "B5",
+        "nome": "S8E24 - Aquele em que Rachel tem o Bebê",
+        "trunfo": false,
+        "atr1": {
+            "valor": 34.9
+        },
+        "atr2": {
+            "valor": 8.8
+        },
+        "atr3": {
+            "valor": 79
+        },
+        "atr4": {
+            "valor": 78
+        },
+        "curiosidades": ["Rachel entra em trabalho de parto com um Ross ansioso por perto, muita coisa acontece e quando Joey acha o anel de Ross, Rachel acha que Joey está pedindo a mão dela."]
+        },
+        {
+        "id": "B6",
+        "nome": "S3E6 - Aquele do Flashback",
+        "trunfo": false,
+        "atr1": {
+            "valor": 23.3
+        },
+        "atr2": {
+            "valor": 9.0
+        },
+        "atr3": {
+            "valor": 30
+        },
+        "atr4": {
+            "valor": 83
+        },
+        "curiosidades": ["Após Janice perguntar a gangue se eles já namoraram uns aos outros, os amigos lembram de uma ocasião três anos atrás e alguns segredos são revelados."]
+        },
+        {
+        "id": "B7",
+        "nome": "S8E3 - Aquele em que Rachel Conta...",
+        "trunfo": false,
+        "atr1": {
+            "valor": 29.2
+        },
+        "atr2": {
+            "valor": 8.6
+        },
+        "atr3": {
+            "valor": 90
+        },
+        "atr4": {
+            "valor": 85
+        },
+        "curiosidades": ["Todo mundo parece saber quem é o pai do bebê de Rachel, menos o próprio cara Ross."]
+        },
+        {
+        "id": "B8",
+        "nome": "S8E6 - Aquele da Festa de Halloween",
+        "trunfo": false,
+        "atr1": {
+            "valor": 27.0
+        },
+        "atr2": {
+            "valor": 8.4
+        },
+        "atr3": {
+            "valor": 48
+        },
+        "atr4": {
+            "valor": 73
+        },
+        "curiosidades": ["Na festa de Halloween de Mônica, Phoebe encontra o noivo de sua gêmea e se encontra atraída a ele também."]
+        },
+        {
+        "id": "C1",
+        "nome": "S6E21 - Aquele em que Ross Conhece o Pai de Elizabeth",
+        "trunfo": false,
+        "atr1": {
+            "valor": 20.6
+        },
+        "atr2": {
+            "valor": 8.5
+        },
+        "atr3": {
+            "valor": 35
+        },
+        "atr4": {
+            "valor": 69
+        },
+        "curiosidades": ["Ross teme conhecer o pai desaprovador de sua namorada de colegial."]
+        },
+        {
+        "id": "C2",
+        "nome": "S01E05 - Aquele com o Sabão em pó da Alemanha Oriental",
+        "trunfo": false,
+        "atr1": {
+            "valor": 18.6
+        },
+        "atr2": {
+            "valor": 8.3
+        },
+        "atr3": {
+            "valor": 65
+        },
+        "atr4": {
+            "valor": 69
+        },
+        "curiosidades": ["Ross e Rachel vão a lavanderia juntos."]
+        },
+        {
+        "id": "C3",
+        "nome": "S02E6 - Aquele com o Bebê no Ônibus",
+        "trunfo": false,
+        "atr1": {
+            "valor": 30.2
+        },
+        "atr2": {
+            "valor": 8.5
+        },
+        "atr3": {
+            "valor": 12
+        },
+        "atr4": {
+            "valor": 84
+        },
+        "curiosidades": ["Joey e Chandler acidentalmente esquecem Ben no ônibus enquanto trabalhando como babás."]
+        },
+        {
+        "id": "C4",
+        "nome": "S7E17 - Aquele do Vestido de Noiva Barato",
+        "trunfo": false,
+        "atr1": {
+            "valor": 20.8
+        },
+        "atr2": {
+            "valor": 8.2
+        },
+        "atr3": {
+            "valor": 23
+        },
+        "atr4": {
+            "valor": 78
+        },
+        "curiosidades": ["Mônica se arrepende de contar a outra noiva prestes a casar sobre uma loja de vestidos mais baratos onde ela luta por um vestido único."]
+        },
+        {
+        "id": "C5",
+        "nome": "S2E21 - Aquele com os Valentões",
+        "trunfo": false,
+        "atr1": {
+            "valor": 24.7
+        },
+        "atr2": {
+            "valor": 8.0
+        },
+        "atr3": {
+            "valor": 26
+        },
+        "atr4": {
+            "valor": 73
+        },
+        "curiosidades": ["Chandler e Ross são intimidados por 2 bullies que tomam o sofá dos amigos no Central Perk."]
+        },
+        {
+        "id": "C6",
+        "nome": "S4E3 - Aquele das Algemas",
+        "trunfo": false,
+        "atr1": {
+            "valor": 24.0
+        },
+        "atr2": {
+            "valor": 8.4
+        },
+        "atr3": {
+            "valor": 33
+        },
+        "atr4": {
+            "valor": 72
+        },
+        "curiosidades": ["Mônica dá uma de Mônica quando faz o trabalho culinário na festa de sua mãe. Chandler se prende numa posição comprometedora com o chefe de Rachel."]
+        },
+        {
+        "id": "C7",
+        "nome": "S10E9 - Aquele com a Mãe Biológica",
+        "trunfo": false,
+        "atr1": {
+            "valor": 25.5
+        },
+        "atr2": {
+            "valor": 8.5
+        },
+        "atr3": {
+            "valor": 15
+        },
+        "atr4": {
+            "valor": 86
+        },
+        "curiosidades": ["Monica e Chandler viajam ao Texas para conhecer uma nova moça gravida que considera deixar eles adotarem a criança dela quando nascida."]
+        },
+        {
+        "id": "C8",
+        "nome": "S9E8 - Aquele com a Outra Irmã de Rachel",
+        "trunfo": false,
+        "atr1": {
+            "valor": 26.8
+        },
+        "atr2": {
+            "valor": 8.7
+        },
+        "atr3": {
+            "valor": 52
+        },
+        "atr4": {
+            "valor": 84
+        },
+        "curiosidades": ["Na noite antes da Ação de Graças, a irmã mais nova egocêntrica de Rachel arruina o jantar festivo de todos com suas observações."]
+        },
+        {
+        "id": "D1",
+        "nome": "S9E10 - Aquele do Natal em Tulsa",
+        "trunfo": false,
+        "atr1": {
+            "valor": 22.3
+        },
+        "atr2": {
+            "valor": 7.2
+        },
+        "atr3": {
+            "valor": 42
+        },
+        "atr4": {
+            "valor": 80
+        },
+        "curiosidades": ["Chandler deve ficar em Tulsa durante o Natal devido prazos no trabalho. Mônica fica suspeita quando descobre que a parceira de trabalho bonita Wendy estará com ele."]
+        },
+        {
+        "id": "D2",
+        "nome": "S7E13 - Aquele em que Rosita Morre",
+        "trunfo": false,
+        "atr1": {
+            "valor": 22.2
+        },
+        "atr2": {
+            "valor": 8.3
+        },
+        "atr3": {
+            "valor": 29
+        },
+        "atr4": {
+            "valor": 72
+        },
+        "curiosidades": ["Phoebe tem um primeiro dia bizarro em seu novo trabalho quando encontra um gerente de escritório se sentindo suícida."]
+        },
+        {
+        "id": "D3",
+        "nome": "S6E6 - Aquele da Última Noite",
+        "trunfo": false,
+        "atr1": {
+            "valor": 23.6
+        },
+        "atr2": {
+            "valor": 8.4
+        },
+        "atr3": {
+            "valor": 45
+        },
+        "atr4": {
+            "valor": 79
+        },
+        "curiosidades": ["Enquanto guardam os pertences de Rachel, as meninas lembram do tempo que gastaram como parceiros de quarto."]
+        },
+        {
+        "id": "D4",
+        "nome": "S4E18 - Aquele do Vestido Novo da Rachel",
+        "trunfo": false,
+        "atr1": {
+            "valor": 21.7
+        },
+        "atr2": {
+            "valor": 8.1
+        },
+        "atr3": {
+            "valor": 42
+        },
+        "atr4": {
+            "valor": 69
+        },
+        "curiosidades": ["Rachel toma uma atitude provocativa para colocar Joshua num sentimento romântico."]
+        },
+        {
+        "id": "D5",
+        "nome": "S3E10 - Aquele em que Rachel Pede as Contas",
+        "trunfo": false,
+        "atr1": {
+            "valor": 25.1
+        },
+        "atr2": {
+            "valor": 8.0
+        },
+        "atr3": {
+            "valor": 27
+        },
+        "atr4": {
+            "valor": 76
+        },
+        "curiosidades": ["Depois de parar de trabalhar no Central Perk, Rachel preocupa-se que vai ficar desempregada por muito tempo."]
+        },
+        {
+        "id": "D6",
+        "nome": "S10E4 - Aquele com o Bolo",
+        "trunfo": false,
+        "atr1": {
+            "valor": 18.8
+        },
+        "atr2": {
+            "valor": 8.2
+        },
+        "atr3": {
+            "valor": 55
+        },
+        "atr4": {
+            "valor": 81
+        },
+        "curiosidades": ["Rachel convence Mônica de adiar uma antecipada viagem a Vermont."]
+        },
+        {
+        "id": "D7",
+        "nome": "S9E23 - Aquele em Barbados",
+        "trunfo": false,
+        "atr1": {
+            "valor": 25.5
+        },
+        "atr2": {
+            "valor": 8.5
+        },
+        "atr3": {
+            "valor": 67
+        },
+        "atr4": {
+            "valor": 80
+        },
+        "curiosidades": ["Ross arruma passes gratuitos para os amigos para a convenção de paleontologos em Barbados."]
+        },
+        {
+        "id": "D8",
+        "nome": "S9E13 - Aquele em que Monica Canta",
+        "trunfo": false,
+        "atr1": {
+            "valor": 25.8
+        },
+        "atr2": {
+            "valor": 8.0
+        },
+        "atr3": {
+            "valor": 75
+        },
+        "atr4": {
+            "valor": 83
+        },
+        "curiosidades": ["Enquanto Raquel organiza seus sentimentos por Gavin, Ross recruta Chandler para ajudar ele a conhecer mulheres bonitas para fazer ciúmes em Rachel."]
+        }
+        ]
+    }
 
 }
 

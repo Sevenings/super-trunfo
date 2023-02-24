@@ -78,7 +78,7 @@ public class Carta {
         int size_curiosidades = curiosidades.size();
         try {
             return curiosidades.get(roleta.nextInt(size_curiosidades));
-        } catch (NullPointerException npe) {
+        } catch (IllegalArgumentException iae) {
             return null;
         }
     }

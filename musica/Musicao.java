@@ -16,7 +16,7 @@ public class Musicao {
             AudioInputStream inputStream = AudioSystem.getAudioInputStream(new File(path));
             Clip clip = AudioSystem.getClip();
             clip.open(inputStream);
-            clip.loop(6);
+            clip.loop(99);
             
         } catch (UnsupportedAudioFileException e) {
             e.printStackTrace();

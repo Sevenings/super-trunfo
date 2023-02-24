@@ -6,9 +6,8 @@ import musica.*;
 
 public class Main {
     public static void main(String[] args) {
-        JogadorHumano player = new JogadorHumano("Luffy");
-        Bot robo = new Bot("Senku-300 (BOT)");
-
+	Musicao.RunMusic("musica/pula.wav");
+	
         Jogo jogo = new Jogo();
         MenuInicial menu = new MenuInicial(jogo);
         menu.open();
