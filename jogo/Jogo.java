@@ -22,6 +22,11 @@ public class Jogo {
         return vencedor;
     }
 
+    public void reset() {
+        jogadores.clear();
+        baralho.clear();
+    }
+
     protected void escolherQuemComeca(List<Jogador> jogadores) {    
         //Método que determina de maneira aleatória quem será o primeiro,
         //determinando então qual jogador está na variável "vez"

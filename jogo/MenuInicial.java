@@ -55,6 +55,7 @@ public class MenuInicial {
     class ComandoJogar extends Command {
         public void action(Object[] args) {
             String nomePlayer = perguntarNome();
+            jogo.reset();
             jogo.addJogador(new JogadorHumano(nomePlayer));
             jogo.addJogador(new Bot("Senku-3000"));
             
