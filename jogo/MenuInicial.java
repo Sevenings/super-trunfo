@@ -57,7 +57,7 @@ public class MenuInicial {
             String nomePlayer = perguntarNome();
             jogo.reset();
             jogo.addJogador(new JogadorHumano(nomePlayer));
-            jogo.addJogador(new Bot("Senku-3000"));
+            jogo.addJogador(new Bot("Mecha Senku 3000"));
             
             boolean foundError = false;
             do {
