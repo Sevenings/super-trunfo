@@ -637,7 +637,7 @@
         "atr4": {
             "valor": 3.2
         },
-        "curiosidades": []
+        "curiosidades": ["Equipado com o lendário motor RB26"]
         },
         {
         "id": "A2",
@@ -655,7 +655,7 @@
         "atr4": {
             "valor": 3.6
         },
-        "curiosidades": []
+        "curiosidades": ["Equipado com o lendário motor 2JZ"]
         },
         {
         "id": "A3",
@@ -673,7 +673,7 @@
         "atr4": {
             "valor": 5.3
         },
-        "curiosidades": []
+        "curiosidades": ["Muito famoso na comunidade unerground de Carros"]
         },
         {
         "id": "A4",
@@ -691,7 +691,7 @@
         "atr4": {
             "valor": 4.8 
         },
-        "curiosidades": []
+        "curiosidades": ["Nome inspirado pelo lendário Lancelot"]
         },
         {
         "id": "A5",
@@ -709,7 +709,7 @@
         "atr4": {
             "valor": 5.6 
         },
-        "curiosidades": []
+        "curiosidades": ["Conhecido como a Ferrari Japonesa", "Uma Ferrari mais barata"]
         },
         {
         "id": "A6",
@@ -727,7 +727,7 @@
         "atr4": {
             "valor": 4.6 
         },
-        "curiosidades": []
+        "curiosidades": ["Famoso por ter estampado principalmente as cores azul e branco"]
         },
         {
         "id": "A7",
@@ -745,7 +745,7 @@
         "atr4": {
             "valor": 4.7
         },
-        "curiosidades": []
+        "curiosidades": ["Como diz o nome, tem quatro portas"]
         },
         {
         "id": "A8",
@@ -763,7 +763,7 @@
         "atr4": {
             "valor": 3.8
         },
-        "curiosidades": []
+        "curiosidades": ["A mercedes mais prestigiada do século"]
         },
         {
         "id": "B1",
@@ -781,7 +781,7 @@
         "atr4": {
             "valor": 3.3
         },
-        "curiosidades": []
+        "curiosidades": ["Muito vermelha"]
         },
         {
         "id": "B2",
@@ -799,7 +799,7 @@
         "atr4": {
             "valor": 17.5
         },
-        "curiosidades": []
+        "curiosidades": ["Segundo as lendas urbanas, ao colocar uma escada no teto, e um adesivo da firma na porta, alcança os 500km/h na rodovia, dando pau em qualquer esportivinho por ai"]
         },
         {
         "id": "B3",
@@ -817,7 +817,7 @@
         "atr4": {
             "valor": 3.8
         },
-        "curiosidades": []
+        "curiosidades": ["+R = Cristiano Ronaldo"]
         },
         {
         "id": "B4",
@@ -835,7 +835,7 @@
         "atr4": {
             "valor": 7.4
         },
-        "curiosidades": []
+        "curiosidades": ["O carro é simples como o nome"]
         },
         {
         "id": "B5",
@@ -853,7 +853,7 @@
         "atr4": {
             "valor": 45
         },
-        "curiosidades": []
+        "curiosidades": ["O clássico brasileiro", "O formato mais aerodinâmico do mercado", "Todo avô já teve um"]
         },
         {
         "id": "B6",
@@ -871,7 +871,7 @@
         "atr4": {
             "valor": 4.1
         },
-        "curiosidades": []
+        "curiosidades": ["Igual o do filme"]
         },
         {
         "id": "B7",
@@ -889,7 +889,7 @@
         "atr4": {
             "valor": 6
         },
-        "curiosidades": []
+        "curiosidades": ["Famoso por aparecer no primeiro filme dos Velozes e Furiosos", "Carro do Brian"]
         },
         {
         "id": "B8",
@@ -907,7 +907,7 @@
         "atr4": {
             "valor": 3.5
         },
-        "curiosidades": []
+        "curiosidades": ["Carrão com audio, como diz o nome"]
         },
         {
         "id": "C1",
@@ -925,7 +925,7 @@
         "atr4": {
             "valor": 4.7
         },
-        "curiosidades": []
+        "curiosidades": ["Barato", "Conversivel mais famoso da BMW"]
         },
         {
         "id": "C2",
@@ -943,7 +943,7 @@
         "atr4": {
             "valor": 6.7
         },
-        "curiosidades": []
+        "curiosidades": ["Digite R no chat", "Rival direto do lancer evo"]
         },
         {
         "id": "C3",
@@ -961,7 +961,7 @@
         "atr4": {
             "valor": 2.7
         },
-        "curiosidades": []
+        "curiosidades": ["Nome inspirado no grande compositor violinista"]
         },
         {
         "id": "C4",
@@ -979,7 +979,7 @@
         "atr4": {
             "valor": 2.8
         },
-        "curiosidades": []
+        "curiosidades": ["Rival da Ferrari 458 Itália"]
         },
         {
         "id": "C5",
@@ -997,7 +997,7 @@
         "atr4": {
             "valor": 9.7
         },
-        "curiosidades": []
+        "curiosidades": ["Carro do tio Wagner"]
         },
         {
         "id": "C6",
@@ -1015,7 +1015,7 @@
         "atr4": {
             "valor": 12.3
         },
-        "curiosidades": []
+        "curiosidades": ["Inspiração da música Corsinha Amarelo do MC Champions", "https://www.youtube.com/watch?v=pw8zsnVqvKQ", "Assetto Corsa não tem esse nome atoa"]
         },
         {
         "id": "C7",
@@ -1033,7 +1033,7 @@
         "atr4": {
             "valor": 10
         },
-        "curiosidades": []
+        "curiosidades": ["Jettão"]
         },
         {
         "id": "C8",
@@ -1051,7 +1051,7 @@
         "atr4": {
             "valor": 4.2
         },
-        "curiosidades": []
+        "curiosidades": ["Agora eu fiquei doce doce doce doce...", "Agora eu fiquei doce, igual caramelo...", "...To tirando onda de camaro amarelo"]
         },
         {
         "id": "D1",
@@ -1069,7 +1069,7 @@
         "atr4": {
             "valor": 14.7
         },
-        "curiosidades": []
+        "curiosidades": ["Carro de entrega de qualquer mercadinho da sua cidade"]
         },
         {
         "id": "D2",
@@ -1087,7 +1087,7 @@
         "atr4": {
             "valor": 3.8
         },
-        "curiosidades": []
+        "curiosidades": ["Um toque de brutalidade americana"]
         },
         {
         "id": "D3",
@@ -1105,7 +1105,7 @@
         "atr4": {
             "valor": 15
         },
-        "curiosidades": []
+        "curiosidades": ["Chevetinho da galera", "Rei do Drift BR"]
         },
         {
         "id": "D4",
@@ -1123,7 +1123,7 @@
         "atr4": {
             "valor": 11.7
         },
-        "curiosidades": []
+        "curiosidades": ["Bebe mais do que alcoolatra em final de semana"]
         },
         {
         "id": "D5",
@@ -1141,7 +1141,7 @@
         "atr4": {
             "valor": 3.2
         },
-        "curiosidades": []
+        "curiosidades": ["Barato, bunito, aerodinâmico"]
         },
         {
         "id": "D6",
@@ -1159,7 +1159,7 @@
         "atr4": {
             "valor": 6.8
         },
-        "curiosidades": []
+        "curiosidades": ["Nota do beta tester: BROKEN", "Aparece no filme: 'Uma saída de Mestre'"]
         },
         {
         "id": "D7",
@@ -1177,7 +1177,7 @@
         "atr4": {
             "valor": 5.7
         },
-        "curiosidades": []
+        "curiosidades": ["Tigraao, MIAAAAU", "Uma besta da selva urbana", "Mia gatinho https://youtu.be/zEgDzYvC_-k?t=17"]
         },
         {
         "id": "D8",
@@ -1195,7 +1195,7 @@
         "atr4": {
             "valor": 18
         },
-        "curiosidades": []
+        "curiosidades": ["Se não for turbão, não tem graça", "Deveria ter no minecraft"]
         }
     ]
 }
