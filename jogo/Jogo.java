@@ -190,7 +190,7 @@ public class Jogo {
             ganhaRodada(jogadores.get(1), jogadores.get(0));
         } else {
             Random roleta = new Random();
-            int vencedor = roleta.nextInt(1);
+            int vencedor = roleta.nextInt(2);
             int perdedor = (1+vencedor)%2;
             ganhaRodada(jogadores.get(vencedor), jogadores.get(perdedor));
         }
