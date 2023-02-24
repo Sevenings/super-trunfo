@@ -52,6 +52,9 @@ public class ChatMenu extends Menu {
         }
         if (opçãoDeVoltar != null)
             System.out.println(opçãoDeVoltar.getNome());
+        if (textoExtra != null) {
+            System.out.println(textoExtra);   // Print algo extra, no caso, será uma curiosidade
+        }
     }
     
     private Option askOption() {    //Pergunta ao usuário qual opção ele deseja executar

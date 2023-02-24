@@ -20,6 +20,8 @@ public class JogadorHumano extends Jogador {
             keywords.add(atributo.getNome());
             keywords.add(Integer.toString(i)); i++;
             menu.add(new ChatMenuOption(atributo.toString(), atributo, keywords));
+
+            menu.setExtra(cartaDaMao.getRandomCuriosidade());
         }
         return (Atributo) menu.open();
     }

@@ -2,24 +2,29 @@
 "pokemon": {
     "atr1": {
         "nome": "Peso",
-        "unidade": "kg"
+        "unidade": "kg",
+        "maiorMelhor": true
     },
     "atr2": {
         "nome": "Ataque",
-        "unidade": null
+        "unidade": null,
+        "maiorMelhor": true
     },
     "atr3": {
         "nome": "Defesa",
-        "unidade": null
+        "unidade": null,
+        "maiorMelhor": true
     },
     "atr4": {
         "nome": "Velocidade",
-        "unidade": null
+        "unidade": null,
+        "maiorMelhor": true
     },
     "cartas": [
         {
         "id": "A1",
         "nome": "Bulbasaur",
+        "trunfo": false,
         "atr1": {
             "valor": 6.9
         },
@@ -37,6 +42,7 @@
         {
         "id": "A2",
         "nome": "Venusaur",
+        "trunfo": false,
         "atr1": {
             "valor": 100
         },
@@ -49,11 +55,12 @@
         "atr4": {
             "valor": 80
         },
-        "curiosidades": []
+        "curiosidades": ["O Pokémon Semente", "A luz solar é convertida em energia, com isso seu poder é mais forte no verão."]
         },
         {
         "id": "A3",
         "nome": "Charmander",
+        "trunfo": false,
         "atr1": {
             "valor": 8.5
         },
@@ -66,11 +73,12 @@
         "atr4": {
             "valor": 65
         },
-        "curiosidades": ["O fogo em sua calda é reflexo de sua vitalidade"]
+        "curiosidades": ["O Pokémon Lagarto", "O fogo em sua calda é reflexo de sua vitalidade"]
         },
         {
         "id": "A4",
         "nome": "Charizard",
+        "trunfo": false,
         "atr1": {
             "valor": 90.5
         },
@@ -83,11 +91,12 @@
         "atr4": {
             "valor": 100
         },
-        "curiosidades": []
+        "curiosidades": ["O Pokémon Chama", "Quando irritado, a chama na ponta da cauda muda de cor e passa a ter uma coloração azul."]
         },
         {
         "id": "A5",
         "nome": "Squirtle",
+        "trunfo": false,
         "atr1": {
             "valor": 9.0
         },
@@ -100,11 +109,12 @@
         "atr4": {
             "valor": 43
         },
-        "curiosidades": []
+        "curiosidades": ["O Pokémon Tartaruguinha", "Após o nascimento, seu casco é macio e se torna resistente com o passar do tempo."]
         },
         {
         "id": "A6",
         "nome": "Blastoise",
+        "trunfo": false,
         "atr1": {
             "valor": 85.5
         },
@@ -117,11 +127,12 @@
         "atr4": {
             "valor": 78
         },
-        "curiosidades": []
+        "curiosidades": ["O Pokémon Marisco", "Ele se torna pesado para que ele possa resistir ao recuo dos jatos de água que ele dispara."]
         },
         {
         "id": "A7",
         "nome": "Caterpie",
+        "trunfo": false,
         "atr1": {
             "valor": 2.9
         },
@@ -134,11 +145,12 @@
         "atr4": {
             "valor": 45
         },
-        "curiosidades": []
+        "curiosidades": ["A antena da cabeça de Caterpie exala um estranho odor quando ameaçado ou tocado", "Os Caterpie adoram viver no topo das copas das árvores, buscando as folhas mais verdes para serem consumidas."]
         },
         {
         "id": "A8",
         "nome": "Butterfree",
+        "trunfo": false,
         "atr1": {
             "valor": 32
         },
@@ -151,11 +163,12 @@
         "atr4": {
             "valor": 70
         },
-        "curiosidades": []
+        "curiosidades": ["A Butterfree nada mais é do que uma Borboleta"]
         },
         {
         "id": "B1",
         "nome": "Weedle",
+        "trunfo": false,
         "atr1": {
             "valor": 3.2
         },
@@ -168,11 +181,12 @@
         "atr4": {
             "valor": 50
         },
-        "curiosidades": []
+        "curiosidades": ["A picada do Weedle é que transmite o veneno - e também o sêmen.", "A coloração do Weedle serve como aviso contra seus."]
         },
         {
         "id": "B2",
         "nome": "Beedrill",
+        "trunfo": false,
         "atr1": {
             "valor": 29.5
         },
@@ -185,11 +199,12 @@
         "atr4": {
             "valor": 75
         },
-        "curiosidades": []
+        "curiosidades": ["É a forma evoluída de Kakuna e a forma final de Weedle.", "Introduzida na 1ª Geração e classificada oficialmente como Poison Bee Pokémon."]
         },
         {
         "id": "B3",
         "nome": "Pidgey",
+        "trunfo": false,
         "atr1": {
             "valor": 1.8
         },
@@ -202,11 +217,12 @@
         "atr4": {
             "valor": 56
         },
-        "curiosidades": []
+        "curiosidades": ["Pokémon Pequeno Pássaro.", "Pidgey tem um excelente senso de direção e sabe muito bem se localizar dentro das mais densas selvas."]
         },
         {
         "id": "B4",
         "nome": "Pidgeot",
+        "trunfo": false,
         "atr1": {
             "valor": 39.5
         },
@@ -219,11 +235,12 @@
         "atr4": {
             "valor": 91
         },
-        "curiosidades": []
+        "curiosidades": ["No inglês, temos Pidgeotto que é uma mistura de pidgeon (pombo) com Otto de Otto Lilienthal, um magnífico estudioso da aviação."]
         },
         {
         "id": "B5",
         "nome": "Rattata",
+        "trunfo": false,
         "atr1": {
             "valor": 3.5
         },
@@ -236,11 +253,12 @@
         "atr4": {
             "valor": 72
         },
-        "curiosidades": []
+        "curiosidades": ["Rattata se tornou o roedor de Kanto mais odiado"]
         },
         {
         "id": "B6",
         "nome": "Pikachu",
+        "trunfo": true,
         "atr1": {
             "valor": 6.0
         },
@@ -253,11 +271,12 @@
         "atr4": {
             "valor": 90
         },
-        "curiosidades": []
+        "curiosidades": ["Pikachu não foi planejado pra ser a estrela do Anime.", "Pikachu significa, literalmente, rato elétrico."]
         },
         {
         "id": "B7",
         "nome": "Raichu",
+        "trunfo": false,
         "atr1": {
             "valor": 30
         },
@@ -270,11 +289,12 @@
         "atr4": {
             "valor": 100
         },
-        "curiosidades": []
+        "curiosidades": ["Quando as bochechas estão vazias, ele usa a cauda para ajuda-lo a coletar eletricidade."]
         },
         {
         "id": "B8",
         "nome": "Clefairy",
+        "trunfo": false,
         "atr1": {
             "valor": 7.5
         },
@@ -287,11 +307,12 @@
         "atr4": {
             "valor": 35
         },
-        "curiosidades": []
+        "curiosidades": ["Clefairy é muito tímida e raramente se mostra aos humanos"]
         },
         {
         "id": "C1",
         "nome": "Meowth",
+        "trunfo": false,
         "atr1": {
             "valor": 4.2
         },
@@ -304,11 +325,12 @@
         "atr4": {
             "valor": 90
         },
-        "curiosidades": []
+        "curiosidades": ["Meowth apareceu pela primeira vez nos videogames Pokémon Red and Blue"]
         },
         {
         "id": "C2",
         "nome": "Parasect",
+        "trunfo": false,
         "atr1": {
             "valor": 29.5
         },
@@ -321,11 +343,12 @@
         "atr4": {
             "valor": 30
         },
-        "curiosidades": []
+        "curiosidades": ["Parasect, que costumava ser um simples Paras antes de evoluir, é completamente dominado pelo cogumelo (também um fungo) tochukaso."]
         },
         {
         "id": "C3",
         "nome": "Alakazam",
+        "trunfo": false,
         "atr1": {
             "valor": 48
         },
@@ -338,11 +361,12 @@
         "atr4": {
             "valor": 120
         },
-        "curiosidades": []
+        "curiosidades": ["Todo Alakazam carrega uma colher em suas mãos em todos os lugares"]
         },
         {
         "id": "C4",
         "nome": "Arcanine",
+        "trunfo": false,
         "atr1": {
             "valor": 155
         },
@@ -355,11 +379,12 @@
         "atr4": {
             "valor": 95
         },
-        "curiosidades": []
+        "curiosidades": ["O Pokémon consegue percorrer 6200 milhas em um dia e uma noite."]
         },
         {
         "id": "C5",
         "nome": "Psyduck",
+        "trunfo": false,
         "atr1": {
             "valor": 19.6
         },
@@ -372,11 +397,12 @@
         "atr4": {
             "valor": 55
         },
-        "curiosidades": []
+        "curiosidades": ["Psyduck é constantemente atordoado por sua dor de cabeça e é incapaz de pensar com muita clareza"]
         },
         {
         "id": "C6",
         "nome": "Geodude",
+        "trunfo": false,
         "atr1": {
             "valor": 20
         },
@@ -389,11 +415,12 @@
         "atr4": {
             "valor": 20
         },
-        "curiosidades": []
+        "curiosidades": ["Geodude em 99% dos casos é o primeiro pedra/terra de todo treinador de pokémon."]
         },
         {
         "id": "C7",
         "nome": "Ponyta",
+        "trunfo": false,
         "atr1": {
             "valor": 30
         },
@@ -406,11 +433,12 @@
         "atr4": {
             "valor": 90
         },
-        "curiosidades": []
+        "curiosidades": ["Os seus cascos são mais duros que diamante."]
         },
         {
         "id": "C8",
         "nome": "Magnemite",
+        "trunfo": false,
         "atr1": {
             "valor": 6
         },
@@ -423,11 +451,12 @@
         "atr4": {
             "valor": 45
         },
-        "curiosidades": []
+        "curiosidades": ["Magnemite se prende à linhas de energia para se alimentar de eletricidade. ","Se acabar a luz em sua casa, vá olhar a caixa dos circuitos. Você poderá encontrar vários desse Pokémon por lá."]
         },
         {
         "id": "D1",
         "nome": "Seel",
+        "trunfo": false,
         "atr1": {
             "valor": 90
         },
@@ -440,11 +469,12 @@
         "atr4": {
             "valor": 45
         },
-        "curiosidades": []
+        "curiosidades": ["Não, seel não vem de um ovo."]
         },
         {
         "id": "D2",
         "nome": "Gengar",
+        "trunfo": false,
         "atr1": {
             "valor": 40.5
         },
@@ -457,11 +487,12 @@
         "atr4": {
             "valor": 110
         },
-        "curiosidades": []
+        "curiosidades": ["Para quem não sabe Doppelganger é uma palavra germânica para sósia.", "Uma referencia forte para o Gengar são as Pessoas das Sombras. Esses seres aparecem muitas vezes para pessoas que possuem paralisia do sono"]
         },
         {
         "id": "D3",
         "nome": "Onix",
+        "trunfo": false,
         "atr1": {
             "valor": 210
         },
@@ -474,11 +505,12 @@
         "atr4": {
             "valor": 70
         },
-        "curiosidades": []
+        "curiosidades": ["Os túneis feitos pelos Onix se tornam morada para Diglett e Dugtrio"]
         },
         {
         "id": "D4",
         "nome": "Exeggutor",
+        "trunfo": false,
         "atr1": {
             "valor": 120
         },
@@ -491,11 +523,12 @@
         "atr4": {
             "valor": 55
         },
-        "curiosidades": []
+        "curiosidades": ["O Exeggutor aparenta ser baseado num coqueiro e possivelmente no monstro Japonês Jinmenju, uma árvore de cabeças humanas que estão sempre a sorrir."]
         },
         {
         "id": "D5",
         "nome": "Staryu",
+        "trunfo": false,
         "atr1": {
             "valor": 34.5
         },
@@ -508,11 +541,12 @@
         "atr4": {
             "valor": 85
         },
-        "curiosidades": []
+        "curiosidades": ["Enquanto o núcleo central estiver intacto, ela pode voltar a crescer, mesmo que seja cortada em pedaços."]
         },
         {
         "id": "D6",
         "nome": "Kangaskhan",
+        "trunfo": false,
         "atr1": {
             "valor": 80
         },
@@ -525,11 +559,12 @@
         "atr4": {
             "valor": 90
         },
-        "curiosidades": []
+        "curiosidades": ["Kangaskhan possui uma pele predominantemente marrom, e já sua barriga possui uma cor mais clara."]
         },
         {
         "id": "D7",
         "nome": "Dragonite",
+        "trunfo": false,
         "atr1": {
             "valor": 210
         },
@@ -542,11 +577,12 @@
         "atr4": {
             "valor": 80
         },
-        "curiosidades": []
+        "curiosidades": ["Sua descrição: guardião do mar pode se referir aos Dragões Chineses, e os Dragões Japoneses das artes feitas por Utagawa Kuniyoushi"]
         },
         {
         "id": "D8",
         "nome": "Mewtwo",
+        "trunfo": false,
         "atr1": {
             "valor": 122
         },
@@ -559,235 +595,7 @@
         "atr4": {
             "valor": 130
         },
-        "curiosidades": []
-        }
-        ]
-    },
-"anime_characters": {   
-    "cartas": [
-        {
-        "id": "A1",
-        "nome": "Naruto",
-        "forca": 8,
-        "inteligencia": 3,
-        "fofura": 4
-        },
-        {
-        "id": "A2",
-        "nome": "Yato",
-        "forca": 7,
-        "inteligencia": 3,
-        "fofura": 6
-        },
-        {
-        "id": "A3",
-        "nome": "Sakura",
-        "forca": 6,
-        "inteligencia": 6,
-        "fofura": 5
-        },
-        {
-        "id": "A4",
-        "nome": "Tanjiro",
-        "forca": 5,
-        "inteligencia": 4,
-        "fofura": 7
-        },
-        {
-        "id": "A5",
-        "nome": "Levi",
-        "forca": 6,
-        "inteligencia": 6,
-        "fofura": 2
-        },
-        {
-        "id": "A6",
-        "nome": "Killua",
-        "forca": 6,
-        "inteligencia": 5,
-        "fofura": 5
-        },
-        {
-        "id": "A7",
-        "nome": "Kazuma",
-        "forca": 3,
-        "inteligencia": 5,
-        "fofura": 4
-        },
-        {
-        "id": "A8",
-        "nome": "All Might",
-        "forca": 7,
-        "inteligencia": 5,
-        "fofura": 1
-        },
-        {
-        "id": "B1",
-        "nome": "Luffy",
-        "forca": 8,
-        "inteligencia": 1,
-        "fofura": 3
-        },
-        {
-        "id": "B2",
-        "nome": "Madara U.",
-        "forca": 8,
-        "inteligencia": 6,
-        "fofura": 0
-        },
-        {
-        "id": "B3",
-        "nome": "Saitama",
-        "forca": 10,
-        "inteligencia": 4,
-        "fofura": 1
-        },
-        {
-        "id": "B4",
-        "nome": "Goku",
-        "forca": 9,
-        "inteligencia": 2,
-        "fofura": 3
-        },
-        {
-        "id": "B5",
-        "nome": "Aqua",
-        "forca": 2,
-        "inteligencia": 1,
-        "fofura": 6
-        },
-        {
-        "id": "B6",
-        "nome": "M. Kurisu.",
-        "forca": 0,
-        "inteligencia": 9,
-        "fofura": 9
-        },
-        {
-        "id": "B7",
-        "nome": "L",
-        "forca": 2,
-        "inteligencia": 10,
-        "fofura": 0
-        },
-        {
-        "id": "B8",
-        "nome": "Sora",
-        "forca": 1,
-        "inteligencia": 8,
-        "fofura": 3
-        },
-        {
-        "id": "C1",
-        "nome": "Edward E.",
-        "forca": 5,
-        "inteligencia": 7,
-        "fofura": 4
-        },
-        {
-        "id": "C2",
-        "nome": "Sasuke",
-        "forca": 8,
-        "inteligencia": 6,
-        "fofura": 2
-        },
-        {
-        "id": "C3",
-        "nome": "Meliodas",
-        "forca": 7,
-        "inteligencia": 4,
-        "fofura": 3
-        },
-        {
-        "id": "C4",
-        "nome": "Zenitsu",
-        "forca": 5,
-        "inteligencia": 3,
-        "fofura": 5
-        },
-        {
-        "id": "C5",
-        "nome": "Eren",
-        "forca": 6,
-        "inteligencia": 4,
-        "fofura": 2
-        },
-        {
-        "id": "C6",
-        "nome": "Hisoka",
-        "forca": 5,
-        "inteligencia": 6,
-        "fofura": 0
-        },
-        {
-        "id": "C7",
-        "nome": "Natsu",
-        "forca": 6,
-        "inteligencia": 3,
-        "fofura": 4
-        },
-        {
-        "id": "C8",
-        "nome": "Happy",
-        "forca": 1,
-        "inteligencia": 2,
-        "fofura": 10
-        },
-        {
-        "id": "D1",
-        "nome": "Kaguya-sama",
-        "forca": 1,
-        "inteligencia": 7,
-        "fofura": 7
-        },
-        {
-        "id": "D2",
-        "nome": "Shiro",
-        "forca": 0,
-        "inteligencia": 9,
-        "fofura": 8
-        },
-        {
-        "id": "D3",
-        "nome": "Megumin",
-        "forca": 4,
-        "inteligencia": 1,
-        "fofura": 7
-        },
-        {
-        "id": "D4",
-        "nome": "Nezuko",
-        "forca": 5,
-        "inteligencia": 2,
-        "fofura": 8
-        },
-        {
-        "id": "D5",
-        "nome": "Jotaro J.",
-        "forca": 7,
-        "inteligencia": 5,
-        "fofura": 9
-        },
-        {
-        "id": "D6",
-        "nome": "Midorya",
-        "forca": 6,
-        "inteligencia": 5,
-        "fofura": 7
-        },
-        {
-        "id": "D7",
-        "nome": "Uraraka",
-        "forca": 4,
-        "inteligencia": 5,
-        "fofura": 7
-        },
-        {
-        "id": "D8",
-        "nome": "Misa Amane",
-        "forca": 0,
-        "inteligencia": 0,
-        "fofura": 8
+        "curiosidades": ["Quando o game Pokémon Red e Blue foi lançado, MewTwo foi considerado o mais poderoso dos Pokémon."]
         }
         ]
     },

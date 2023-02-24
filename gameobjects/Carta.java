@@ -72,4 +72,14 @@ public class Carta {
     public Atributo getAtributo(int n) {
         return atributos.get(n);
     }
+
+    public String getRandomCuriosidade() {
+        Random roleta = new Random();
+        int size_curiosidades = curiosidades.size();
+        try {
+            return curiosidades.get(roleta.nextInt(size_curiosidades));
+        } catch (NullPointerException npe) {
+            return null;
+        }
+    }
 }

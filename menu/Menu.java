@@ -5,6 +5,7 @@ import java.util.*;
 public abstract class Menu extends Option {
     protected List<Option> options = new LinkedList<Option>();
     protected Menu upperMenu;
+    protected String textoExtra;
 
     public abstract Object open(); //Abre o próprio menu, apresentando as opções e perguntando qual o usuário deseja.
     
@@ -23,5 +24,9 @@ public abstract class Menu extends Option {
 
         String index_keyword = Integer.toString(options.indexOf(opção)+1);
         opção.addKeyword(index_keyword);
+    }
+
+    public void setExtra(String texto) {
+        this.textoExtra = texto;
     }
 }
