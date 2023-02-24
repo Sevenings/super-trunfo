@@ -1,4 +1,4 @@
-# super-trunfo
+# Super Trunfo
 ### Alunos
 - Lucas Vinicius de Lima Assis - 202201650
 - João Septimio Zeferino - 202201641
